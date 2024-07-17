@@ -1,0 +1,19 @@
+\frametitle{Python Syntax}
+Python is a programming language that follows a simple, clean, and readable format. Here's a basic breakdown:
+\begin{itemize}
+\item \textbf{Indentation:} Instead of using braces \{\} like many other languages, Python uses indentation (spaces or tabs) to denote code blocks. The amount of indentation should be consistent throughout a block.
+\begin{lstlisting}
+def say_hello():
+    print("Hello!")
+\end{lstlisting}
+\item \textbf{Colons:} Statements that introduce a new block, like if, for, def (for defining functions), end with a colon :
+\begin{lstlisting}
+def drawStones(stonesX):
+    fill(88, 42, 26)
+\end{lstlisting}
+\item \textbf{Comments:} Any line that starts with a \# is a comment, meaning Python ignores it. It's for the programmer to write notes.
+\begin{lstlisting}
+# This is a comment
+print("This is not a comment")
+\end{lstlisting}
+\end{itemize}

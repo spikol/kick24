@@ -1,0 +1,114 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+The principles of variable scoping in Processing.py largely follow those
+of Python but with some considerations given the environment of
+Processing's draw loop and function setup.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Global Variables}: Variables declared outside of any function
+  are global to the sketch. They can be accessed and modified from any
+  function, but if you want to modify them inside a function, you need
+  to declare them as \texttt{global} within that function.
+
+\begin{verbatim}
+pythonCopy code
+x = 10
+
+def changeX():
+    global x
+    x = 20
+\end{verbatim}
+\item
+  \textbf{Local Variables}: Variables declared inside a function are
+  local to that function. They cannot be accessed outside of the
+  function, and their memory is reclaimed once the function execution is
+  complete.
+
+\begin{verbatim}
+pythonCopy code
+def showValue():
+    y = 15
+    print(y)  # This will print 15
+    
+showValue()
+# print(y)  # This would be an error because y is not defined outside of the function.
+\end{verbatim}
+\item
+  \textbf{The setup() and draw() Functions}: In Processing.py,
+  \texttt{setup()} is called once at the beginning of the sketch, and
+  \texttt{draw()} is called repeatedly, producing frames. Variables
+  declared in \texttt{setup()} are local to
+  \texttt{setup().\ Still,\ often\ you\textquotesingle{}ll\ want\ to\ declare\ global\ variables\ at\ the\ top\ level\ of\ your\ sketch\ and\ then\ initialize\ or\ modify\ them\ in}setup()`.
+
+\begin{verbatim}
+pythonCopy code
+x = 0
+
+def setup():
+    global x
+    size(400, 400)
+    x = width / 2  # Initializing x based on the canvas width
+    
+def draw():
+    global x
+    background(240)
+    ellipse(x, height/2, 50, 50)
+    x += 1
+\end{verbatim}
+\end{enumerate}
+
+\end{document}

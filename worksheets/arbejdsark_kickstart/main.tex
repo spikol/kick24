@@ -1,0 +1,77 @@
+\documentclass{ucph-handout}
+%\usepackage[english]{babel}
+
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{wrapfig}
+\newcounter{handout}
+\newcommand{\Ark}{Worksheet \arabic{handout}: }
+\renewcommand{\Title}{\Ark Kickstart 2024 P5js}%
+\renewcommand{\TimeAndLocation}{DIKU, 2024}%
+\renewcommand{\Author}{Daniel Spikol \& Martin Dybdal}
+\renewcommand{\AuthorEmail}{ds@di.ku.dk}
+
+% Define JavaScript language settings for listings
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+
+\begin{document}
+\begin{exercisebox}[adjusted title=Welcome to Kickstart]
+Welcome to Computer Science and the programming kickstart course!
+The exercises below will quickly get you up and running with programming P5 JavaScript. We have intentionally left some things unexplained as we want you to want you to experiment on your own.
+\end{exercisebox}
+
+\begin{exercisebox}[adjusted title=Resources]
+There is a world of information and resources to help you learn p5.js. Check out the following:
+\begin{description}
+\item[ Book]  McCarthy, Lauren, Casey Reas, and Ben Fry. Getting started with P5. js: Making interactive graphics in JavaScript and processing. Maker Media, Inc., 2015.
+\item[p5.js Web site] \href{https://p5js.org/}{The official website} Click to go to the URL
+\item[Happy Coding] A fun set of tutorials and examples for p5.js \href{https://happycoding.io/}{Happy Coding}. Click
+\item[Kickstart Absalon] You can find the book and other materials on the LMS.
+\end{description}
+\end{exercisebox}
+
+\begin{exercisebox}[adjusted title=Have Fun]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{illustrationer/monkey_fun.png}
+\end{center}
+
+\end{exercisebox}
+
+
+%==WORKSHEET 1
+\include{01_worksheet}
+
+%==WORKSHEET 2
+\include{02_worksheet}
+
+%==WORKSHEET 3
+\include{03_worksheet}
+
+% == Worksheet 4
+\include{04_worksheet}
+
+%==WORKSHEET #5
+\include{05_worksheet}
+
+
+%=== Worksheet 06
+\include{06_worksheet}
+
+\end{document}

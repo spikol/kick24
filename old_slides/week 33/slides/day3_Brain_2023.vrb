@@ -1,0 +1,20 @@
+\frametitle{Conditionals in Py.Processing}
+For instance, to animate a circle moving across the screen and to make it wrap around when it reaches the edge:
+\begin{lstlisting}
+x_pos = 0
+
+def setup():
+    size(400, 400)
+
+def draw():
+    global x_pos
+    background(240)
+    ellipse(x_pos, height/2, 50, 50)
+    x_pos += 2
+
+    # Conditional to check if the circle is out of bounds
+    if x_pos > width:
+        x_pos = 0
+\end{lstlisting}
+
+In the code above, the conditional if \texttt{if x\_pos > width:} checks if the circle has moved outside the canvas. If true, it resets its position.

@@ -1,0 +1,128 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Print Statements}:
+
+  \begin{itemize}
+  \item
+    Sometimes, the simplest methods are the most effective. Use
+    \texttt{print()} to display the values of variables, the flow of the
+    program, or to check if a specific part of the code is being
+    executed. This can quickly help you locate where things might be
+    going wrong.
+  \end{itemize}
+\item
+  \textbf{Error Messages}:
+
+  \begin{itemize}
+  \item
+    Always read error messages in the Processing console. They can give
+    you precise information on what went wrong and where. For instance,
+    a \texttt{NullPointerException} might indicate you're trying to use
+    an object that hasn't been initialized.
+  \end{itemize}
+\item
+  \textbf{Commenting Out}:
+
+  \begin{itemize}
+  \item
+    If you're unsure which part of your code is causing the problem, try
+    commenting out sections of it to isolate the problematic area. You
+    can gradually uncomment sections to narrow down the issue.
+  \end{itemize}
+\item
+  \textbf{Visual Feedback}:
+
+  \begin{itemize}
+  \item
+    Since Processing is a graphical environment, use visual feedback to
+    your advantage. For example, change colors, draw borders, or use
+    simple shapes to visually represent the flow of logic or the state
+    of specific variables.
+  \end{itemize}
+\item
+  \textbf{Break Down the Problem}:
+
+  \begin{itemize}
+  \item
+    If you have a complex piece of code that isn't working, break it
+    down into smaller, more manageable chunks. Test each chunk
+    independently to ensure it works as expected before integrating it
+    back into the larger codebase.
+  \end{itemize}
+\item
+  \textbf{Check for Common Mistakes}:
+
+  \begin{itemize}
+  \item
+    In the context of Processing, this might mean:
+
+    \begin{itemize}
+    \item
+      Make sure \texttt{setup()} and \texttt{draw()} functions are
+      correctly defined.
+    \item
+      Ensuring that you're using the right coordinates or dimensions for
+      shapes.
+    \item
+      Verifying that image or data files are in the correct directory
+      and are being loaded properly.
+    \end{itemize}
+  \end{itemize}
+\end{enumerate}
+
+\end{document}

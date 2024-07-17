@@ -1,0 +1,12 @@
+digraph G {
+  margin=0;
+  rankdir=LR;
+  "" [shape = none, width=0, height=0, margin=0]
+  "" -> "LOCKED"
+  "LOCKED" -> "FIRST_CORRECT" [label="8", weight=100]
+  "LOCKED" -> "LOCKED" [label="alt andet end 8"]
+  "FIRST_CORRECT" -> "SECOND_CORRECT" [label="3", weight=100]
+  "FIRST_CORRECT" -> "FIRST_CORRECT" [label="alt andet end 3"]
+  "SECOND_CORRECT" -> "UNLOCKED" [label="7", weight=100]
+  "SECOND_CORRECT" -> "SECOND_CORRECT" [label="alt andet end 7"]
+}

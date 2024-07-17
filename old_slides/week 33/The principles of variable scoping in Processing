@@ -1,0 +1,42 @@
+The principles of variable scoping in Processing.py largely follow those of Python but with some considerations given the environment of Processing's draw loop and function setup.
+
+1. **Global Variables**: Variables declared outside of any function are global to the sketch. They can be accessed and modified from any function, but if you want to modify them inside a function, you need to declare them as `global` within that function.
+
+   ```
+   pythonCopy code
+   x = 10
+   
+   def changeX():
+       global x
+       x = 20
+   ```
+
+2. **Local Variables**: Variables declared inside a function are local to that function. They cannot be accessed outside of the function, and their memory is reclaimed once the function execution is complete.
+
+   ```
+   pythonCopy code
+   def showValue():
+       y = 15
+       print(y)  # This will print 15
+       
+   showValue()
+   # print(y)  # This would be an error because y is not defined outside of the function.
+   ```
+
+3. **The setup() and draw() Functions**: In Processing.py, `setup()` is called once at the beginning of the sketch, and `draw()` is called repeatedly, producing frames. Variables declared in `setup()` are local to `setup(). Still, often you'll want to declare global variables at the top level of your sketch and then initialize or modify them in `setup()`.
+
+   ```
+   pythonCopy code
+   x = 0
+   
+   def setup():
+       global x
+       size(400, 400)
+       x = width / 2  # Initializing x based on the canvas width
+       
+   def draw():
+       global x
+       background(240)
+       ellipse(x, height/2, 50, 50)
+       x += 1
+   ```

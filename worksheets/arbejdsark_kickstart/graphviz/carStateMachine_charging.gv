@@ -1,0 +1,14 @@
+digraph G {
+  margin=0;
+  rankdir=LR;
+  "" [shape = none, width=0, height=0, margin=0]
+  "" -> "\"FORWARD\""
+  "\"FORWARD\"" -> "\"BACKWARD\"" [label="carX > 400"]
+  "\"BACKWARD\"" -> "\"PARKING\"" [label="carX < 0" ]
+  "\"PARKING\"" -> "\"FORWARD\"" [label="carParkingTimer == 0" ]
+  "\"PARKING\"" -> "\"CHARGING\"" [label="keyPressed and key == 'c'" ]
+  "\"CHARGING\"" -> "\"PARKING\"" [label="keyPressed and key == 'c'" ]
+  "\"CHARGING\"" -> "\"FORWARD\"" [label="carParkingTimer == 0" ]
+  "\"FORWARD\"" -> "\"OUT_OF_FUEL\"" [label="carBattery <= 0"]
+  "\"BACKWARD\"" -> "\"OUT_OF_FUEL\"" [label="carBattery <= 0"]
+}

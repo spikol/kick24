@@ -1,0 +1,14 @@
+digraph G {
+  margin=0;
+  rankdir=LR;
+  "" [shape = none, width=0, height=0, margin=0]
+  "" -> "FORWARD"
+  "FORWARD" -> "BACKWARD"
+  "FORWARD" -> "OUT_OF_FUEL"
+  "BACKWARD" -> "PARKED"
+  "BACKWARD" -> "OUT_OF_FUEL"
+  "PARKED" -> "CHARGING"
+  "PARKED" -> "FORWARD"
+  "CHARGING" -> "FORWARD"
+  "CHARGING" -> "PARKED"
+}

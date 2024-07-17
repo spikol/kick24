@@ -1,0 +1,81 @@
+
+%==WORKSHEET 3
+\newpage
+\stepcounter{handout}
+
+\begin{exercisebox}[adjusted title=Functions]
+Functions allow you to reuse the same code in multiple places,
+name entire blocks, and add structure to code.\\
+
+Open the Aquarium project. Add the following ``fish-draw-function'':
+
+\begin{lstlisting}[language=JavaScript]
+function setup() {
+  createCanvas(400, 400);
+  background(220);
+
+  // basic fish shape
+  fishX = 150;
+  ellipse(fishX, 200, 120, 75);
+  triangle(fishX - 60, 200, fishX - 90, 170, fishX - 90, 230);
+
+  // eye
+  eyeSize = 15;
+  ellipse(fishX + 30, 190, eyeSize, eyeSize);
+}
+
+function draw() {}
+\end{lstlisting}
+
+Now it's much faster to fill the aquarium with fish and we avoid copying code.
+
+\tcbsubtitle{Task:} Create your own \texttt{drawFish(x, y)} function that draws your entire fish with colour, fins and eyes.
+
+\end{exercisebox}
+
+\begin{exercisebox}[adjusted title=Green City continued]
+Over in the electric car project, you can also try writing a function
+to draw trees:
+\begin{lstlisting}[language=JavaScript]
+ function setup() {
+  createCanvas(400, 400);
+  background(220);
+  drawTree(160);
+}
+
+function draw() {
+  // we are going to use the draw function soon!
+}
+
+function drawTree(treeX) {
+  fill(100, 100, 0);
+  rect(treeX - 5, 350, 10, 20);
+  fill(0, 200, 0);
+  ellipse(treeX, 335, 40, 50);
+}
+\end{lstlisting}
+
+\noindent
+Structure your electric car project code with functions:
+\begin{itemize}
+\item Write a \texttt{drawCloud(x)} function that draws a cloud
+\item Extend the \texttt{drawTree(x)} function to also accept a y-coordinate
+\item Write a \texttt{drawCar(x)} function that draws a car
+\item Write a \texttt{drawPowerplant()} function and a
+  \texttt{drawWindmill()} function that draws the power plant and
+  the windmill, respectively. We won't need to move them around, so they don't need to
+  not take coordinates as an argument.
+\end{itemize}
+\noindent
+Call all the functions in the \texttt{setup() }for now. For example:
+
+\begin{lstlisting}[language=JavaScript]
+drawTree(150, 235);
+drawTree(240, 335);
+drawPowerplant();
+drawWindmill();
+drawCar(50);
+drawCloud(280);
+\end{lstlisting}
+
+\end{exercisebox}

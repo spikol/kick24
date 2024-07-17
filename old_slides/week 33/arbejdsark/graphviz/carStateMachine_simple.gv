@@ -1,0 +1,10 @@
+digraph G {
+  margin=0;
+  rankdir=LR;
+  "" [shape = none, width=0, height=0, margin=0]
+  "" -> "\"FORWARD\""
+  "\"FORWARD\"":n -> "\"BACKWARD\"" [label="carX > 400"]
+  "\"BACKWARD\"":s -> "\"FORWARD\"" [label="carX < 0" ]
+  "\"FORWARD\"":s -> "\"OUT_OF_FUEL\"" [label="carBattery <= 0"]
+  "\"BACKWARD\"" -> "\"OUT_OF_FUEL\"" [label="carBattery <= 0"]
+}

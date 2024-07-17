@@ -1,0 +1,19 @@
+\frametitle{Scoping, virkefelter}
+  \framesubtitle{Hvilke variabler og funktioner er synlige hvor?}
+
+  \begin{align*}
+    &\texttt{variabel1 = ...} \\
+    &\fbox{A} \\
+    &\texttt{def~}\texttt{funktion1(argument0, argument1)}: \\
+    &\texttt{~~~~}\texttt{variabel2 = ...} \\
+    &\texttt{~~~~}\fbox{B} \\
+    &\fbox{C}
+  \end{align*}
+
+  \begin{itemize}
+  \item \texttt{variabel1} er synlig i \fbox{A}, \fbox{B}, \fbox{C}
+  \item \texttt{argument0} og \texttt{argument1} er synlige i \fbox{B}
+  \item \texttt{variabel2} er synlig i \fbox{B}
+  \item \texttt{funktion1} er synlig i \fbox{B}, \fbox{C}
+  \end{itemize}
+

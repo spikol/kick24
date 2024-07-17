@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Intro til kurset}{2}{0}{1}
+\beamer@sectionintoc {2}{Internetadgang og Installation}{3}{0}{2}
+\beamer@sectionintoc {3}{Processing}{8}{0}{3}
