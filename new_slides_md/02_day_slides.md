@@ -62,13 +62,12 @@ marp: true
 - A single recipe step might be “preheat the oven to 350 degrees” or “add 2 cups of flour”, and you might write each step on its line.
 - The other person then follows those steps in order, one after the other, to bake a cake.
 
-\`\`\`python
+```python
 preheat oven to 350 degrees
 get a large bowl
 add 2 cups of flour
 add 1 cup of sugar
-...
-\`\`\`
+```
 
 ---
 
@@ -80,7 +79,7 @@ add 1 cup of sugar
 ---
 
 # Py. Processing Examples
-\`\`\`python
+```python
 def drawFish(fishX, fishY, eyeSize):
     # Krop
     fill(255, 157, 0)
@@ -96,7 +95,7 @@ def drawFish(fishX, fishY, eyeSize):
     ellipse(fishX + 30, fishY-10, eyeSize, eyeSize)
     fill(255, 255, 255)
     ellipse(fishX + 32, fishY-10, 5, 5)
-\`\`\`
+```
 
 ---
 
@@ -104,24 +103,24 @@ def drawFish(fishX, fishY, eyeSize):
 Python is a programming language that follows a simple, clean, and readable format. Here's a basic breakdown:
 - **Indentation:** Instead of using braces \{\} like many other languages, Python uses indentation (spaces or tabs) to denote code blocks. The amount of indentation should be consistent throughout a block.
 
-\`\`\`python
+```python
 def say_hello():
     print("Hello!")
-\`\`\`
+```
 
 - **Colons:** Statements that introduce a new block, like if, for, def (for defining functions), end with a colon :
 
-\`\`\`python
+```python
 def drawStones(stonesX):
     fill(88, 42, 26)
-\`\`\`
+```
 
 - **Comments:** Any line that starts with a \# is a comment, meaning Python ignores it. It's for the programmer to write notes.
 
-\`\`\`python
+```python
 # This is a comment
 print("This is not a comment")
-\`\`\`
+```
 
 ---
 

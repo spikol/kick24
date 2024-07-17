@@ -221,6 +221,7 @@ DIKU Københavns Universitet
 <div class="top-title">
 
 # p5.js Web Editor Interface
+
 ![bg 95%](./images/p5_intro_02.png)
 
 ---
