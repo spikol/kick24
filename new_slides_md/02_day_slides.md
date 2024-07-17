@@ -31,10 +31,6 @@ marp: true
 - Making some Animations
 - Exploring Pair Programming
 
----
-
-# The Python of Python
-![height:6cm](images/MPFC-logo)
 
 ---
 

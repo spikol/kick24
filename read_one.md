@@ -1,5 +1,11 @@
 # Readme
 17 juli
+## To Do
+- [ ] Hackathon slides
+- [ ] Hackathon Materials (cards and pdf)
+- [ ] Update Sound into slides and workbooks
+- [ ] Fix day 2, 3, and 4 Slides
+- [ ] Get Arduino Kits
 
 ## Team
 - Daniel Spikol
