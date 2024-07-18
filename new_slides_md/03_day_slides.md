@@ -30,6 +30,7 @@ marp: true
 - Variable Scoping
 - Draw() function
 - Conditionals
+- Sounds
 - Ideation
 
 ---
