@@ -1,12 +1,16 @@
 # Readme
 18 juli
+
+**Find all the pdfs** on the root of the repo for slides for each day and the new worksheets
+
 ## To Do
 - [ ] Convert Hackathon slides
 - [x] Hackathon Materials (cards and pdf)
-- [ ] Update Sound workbooks
+- [ ] Update Sound workbook
 - [ ] Fix day 2, 3, and 4 Slides
 - [x] Get Arduino Kits
 - [x] Absalon sites foundation
+- [ ] Creative computing slides
 
 ## P5 Library of examples
 Check out [online examples](https://editor.p5js.org/spikol/collections/cP5rBQaGT)
