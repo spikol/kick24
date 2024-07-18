@@ -23,33 +23,76 @@ marp: true
 - Drawing with Processing
 - Variables
 - Functions maybe...
-
+- 
 ---
 
 # Todays Plan - IFOs
 - Let's dig into basic Python and Functions
 - Making some Animations
 - Exploring Pair Programming
+- 
+---
 
+# What the heck is p5.js
+- **User-Friendly and Inclusive**: p5.js is a free, open-source JavaScript library designed for learning to code and making art, welcoming artists, designers, beginners, and educators with a nurturing community.
+
+- **Accessible and Intuitive**: Prioritizing accessibility, p5.js offers expansive documentation, visual examples, and a web editor for easy, intuitive coding, supporting audio-visual, interactive, and experimental web works.
+
+- **Community and Creativity**: Emphasizing iterative coding for creative expression, p5.js values open source and community involvement, providing inspiration and support to learn, create, and share freely, with many community-created libraries available.
 
 ---
 
-# What the heck is Python
-- A high-level, interpreted programming language known for its simplicity and readability.
-- Supports multiple programming paradigms: procedural, object-oriented, and functional.
-- Extensive standard libraries and vast ecosystem of third-party packages.
-- Used for web development, data analysis, artificial intelligence, scientific computing, and more.
-- Guiding principle: "There should be one—and preferably only one—obvious way to do it." (From the Zen of Python)
+# Brief History of p5.js
+- **Origin and Inspiration**: p5.js was created by Lauren McCarthy in 2014, inspired by Processing, a visual arts-focused programming language, to make coding more accessible and engaging for artists and designers.
+
+- **Community Growth**: Since its inception, p5.js has evolved through contributions from an inclusive and diverse community, fostering a collaborative environment that prioritizes accessibility and creativity.
+
+- **Continued Development**: Over the years, p5.js has expanded with numerous community-created libraries and tools, maintaining its commitment to open source principles, educational resources, and innovative artistic expression.
 
 ---
+# p5.js Program Structure
+- **Basic Structure**: Every p5.js sketch begins with two main functions: `setup()` and `draw()`. `setup()` runs once to set up the initial environment, while `draw()` continuously executes the code within it to create animations.
 
-# Brief History of Python
-- Created by Guido van Rossum and first released in 1991.
-- Named not after the snake, but after the British comedy series "Monty Python's Flying Circus", which Guido enjoyed.
-- Python 2.0 (2000) introduced new features like garbage collection and Unicode support.
-- Python 3.0 (2008) was a major overhaul fixing inconsistencies, focusing on removing duplicate constructs and modules.
-- Python's popularity continues growing due to its ease of learning and versatility, with a strong community support and a wealth of libraries and frameworks.
+- **Drawing Shapes**: Use simple functions like `ellipse(x, y, width, height)`, `rect(x, y, width, height)`, and `line(x1, y1, x2, y2)` to draw basic shapes. Coordinates start from the top-left corner (0, 0).
 
+- **Color and Style**: Set colors using `fill(r, g, b)` for shapes and `stroke(r, g, b)` for outlines. Control line thickness with `strokeWeight(weight)`. Use `noFill()` and `noStroke()` to remove fill or stroke.
+
+- **Interactivity**: Make sketches interactive by using built-in variables like `mouseX` and `mouseY` for mouse position, and functions like `mousePressed()` or `keyPressed()` to trigger actions on user input.
+---
+
+# p5.js Syntax
+- **Semicolons:** In JavaScript, semicolons (;) are used to terminate statements. While they are often optional due to JavaScript’s automatic semicolon insertion (ASI), it’s good practice to include them to avoid potential errors. Example: `let x = 10;`.
+
+- **Curly Brackets:** Curly brackets `{}` define blocks of code, such as the body of functions, loops, and conditional statements. They group multiple statements together.
+
+---
+# p5.js Code example
+
+```javascript
+/* a sample program that draws a simple cyclops in the setup() without using the draw().
+ */
+
+function setup() {
+  createCanvas(400, 400); // size of window
+  background(220); // canvas color
+
+  ellipse(200, 200, 150, 150); // the head
+
+  //draws the black eye
+  fill(0);
+  ellipse(200, 175, 50, 50);
+
+  //draws the pupil
+  fill(240);
+  ellipse(200, 175, 25, 25);
+
+  // draws the mouth
+  line(175, 235, 225, 235);
+}
+
+function draw() {
+}
+```
 ---
 
 # What are Functions (Basic)
@@ -75,65 +118,34 @@ add 1 cup of sugar
 ---
 
 # Py. Processing Examples
-```python
-def drawFish(fishX, fishY, eyeSize):
-    # Krop
-    fill(255, 157, 0)
-    ellipse(fishX, fishY, 120, 75)
+```javascript
+function setup() {
+  createCanvas(400, 400);
+  background(220);
+  drawTree(160);
+}
 
-    # Finner
-    fill(247, 222, 0)
-    triangle(fishX-60, fishY, fishX-90, fishY-30, fishX-90, fishY+30)
-    triangle(fishX+10, fishY+10, fishX-20, fishY, fishX-20, fishY+25)
+function draw() {
+  // we are going to use the draw function soon!
+}
 
-    # Eye
-    fill(0, 0, 0)
-    ellipse(fishX + 30, fishY-10, eyeSize, eyeSize)
-    fill(255, 255, 255)
-    ellipse(fishX + 32, fishY-10, 5, 5)
+function drawTree(treeX) {
+  fill(100, 100, 0);
+  rect(treeX - 5, 350, 10, 20);
+  fill(0, 200, 0);
+  ellipse(treeX, 335, 40, 50);
+}
 ```
-
----
-
-# Python Syntax
-Python is a programming language that follows a simple, clean, and readable format. Here's a basic breakdown:
-- **Indentation:** Instead of using braces \{\} like many other languages, Python uses indentation (spaces or tabs) to denote code blocks. The amount of indentation should be consistent throughout a block.
-
-```python
-def say_hello():
-    print("Hello!")
-```
-
-- **Colons:** Statements that introduce a new block, like if, for, def (for defining functions), end with a colon :
-
-```python
-def drawStones(stonesX):
-    fill(88, 42, 26)
-```
-
-- **Comments:** Any line that starts with a \# is a comment, meaning Python ignores it. It's for the programmer to write notes.
-
-```python
-# This is a comment
-print("This is not a comment")
-```
-
----
-
-# Basic Structure for Processing
-![height:8cm](images/process)
 
 ---
 
 # Debugging Strategies
-1. **Print Statements:**
-   - Sometimes, the simplest methods are the most effective. Use \`print()\` to display the values of variables, the flow of the program, or to check if a specific part of the code is being executed. This can quickly help you locate where things might be going wrong.
-2. **Error Messages:**
-   - Always read error messages in the Processing console. They can give you precise information on what went wrong and where. For instance, a \`NullPointerException\` might indicate you're trying to use an object that hasn't been initialized.
-3. **Commenting Out:**
-   - If you're unsure which part of your code is causing the problem, try commenting out sections of it to isolate the problematic area. You can gradually uncomment sections to narrow down the issue.
-4. **Visual Feedback:**
-   - Since Processing is a graphical environment, use visual feedback to your advantage. For example, change colors, draw borders, or use simple shapes to visually represent the flow of logic or the state of specific variables.
+
+- **Console Logs**: Use `console.log()` to print values and messages to the console. This helps track variable values and program flow. Example: `console.log("x position:", x);`.
+
+- **Error Messages**: Pay attention to error messages in the console. They often indicate the line number and type of error, helping you quickly identify and fix issues in your code.
+
+- **Commenting**: Temporarily comment out sections of code using `//` for single lines or `/* ... */` for blocks to isolate problematic parts. This helps in narrowing down where the issue might be occurring.
 
 ---
 
@@ -147,14 +159,9 @@ print("This is not a comment")
      - Verifying that image or data files are in the correct directory and are being loaded properly.
 
 ---
-
-# Some Tools in the PDE
-![height:7cm](images/auto_for)
-
----
-
-# Pair Programming - Hello Friend!
-![height:8cm](images/pairprog)
+<!-- _color: white -->
+# Pair Programming - Hello Friend!<!--fit-->
+![bg](./image_bank/pairprog.png)
 
 ---
 
@@ -210,8 +217,8 @@ Examples:
 
 # Wednesday
 - Conditionals
+- Sound!
 - More input with keys and mouse
 - Finite State Machines?
 - Brainstorming Ideas for your Projects!
 
-![height:6cm](images/tomorrow_mpfc)
