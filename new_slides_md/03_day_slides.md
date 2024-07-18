@@ -12,9 +12,6 @@ marp: true
 **DIKU \\ Københavns Universitet**  
 **16. august 2023**
 
-![height:1.5cm](ku_logo_dk)
-
-![height:5cm](images/gozz)
 
 ---
 
@@ -46,13 +43,19 @@ marp: true
 ## Global Variables
 **Global Variables**: Variables declared outside of any function are global to the sketch. They can be accessed and modified from any function, but if you want to modify them inside a function, you must declare them as `global` within that function.
 
-```python
-#global in action
-x = 10
+```java
+var globalVarX = 50;
 
-def changeX():
-    global x
-    x = 20
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  fill(255, 0, 0);
+  ellipse(globalVarX, 100, 30, 30);
+  globalVarX = globalVarX + 1;
+}
 ```
 
 ---
@@ -61,33 +64,38 @@ def changeX():
 ## Local Variables
 **Local Variables**: Variables declared inside a function are local to that function. They cannot be accessed outside of the function, and their memory is reclaimed once the function execution is complete.
 
-```python
-def showValue():
-    y = 15
-    print(y)  # This will print 15
-    
-showValue()
-# print(y)  # This would be an error because y is not defined outside of the function.
-\`\`\`
+```java
+function setup() {
+  createCanvas(400, 400);
+  var myVar = 42;
+  print(myVar); // This prints 42
+}
+
+function draw() {
+  background(220);
+  print(myVar); // This returns error, not defined
+}
+```
 
 ---
 
 # Variable Scoping Py.Processing
 **The setup() and draw() Functions**: In Processing.py, `setup()` is called once at the beginning of the sketch, and `draw()` is called repeatedly, producing frames.
 
-```python
-x = 0
+```java
+var x = 0;
 
-def setup():
-    global x
-    size(400, 400)
-    x = width / 2  # Initializing x based on the canvas width
-    
-def draw():
-    global x
-    background(240)
-    ellipse(x, height/2, 50, 50)
-    x += 1
+function setup() {
+  createCanvas(400, 400);
+  var x;
+  x = width / 2;
+}
+
+function draw() {
+  background(220);
+  ellipse(x, height / 2, 50, 50);
+  x += 1;
+}
 ```
 
 Variables declared in `setup()` are local to `setup()`. Still, often you want to declare global variables at the top level of your sketch and then initialise or modify them in `setup()`.
@@ -103,6 +111,8 @@ Variables declared in `setup()` are local to `setup()`. Still, often you want to
 ---
 
 # Conditionals Conceptually
+<span style="font-size:25px;">
+
 - **Basic Conditional (IF)**
   - **Concept**: If a specific condition is true, do something.
   - **Example**: "If it's raining, take an umbrella."
@@ -115,17 +125,17 @@ Variables declared in `setup()` are local to `setup()`. Still, often you want to
 - **Combining Conditions**
   - **Concept**: You can use logical operators (AND, OR, NOT) to combine conditions.
   - **Example**: "If it's a weekend AND the weather is good, go hiking."
+  
+</div>
 
 ---
 
-# UML Condition
-
----
-
-# Cake Condition
+# Flowchart Condition
+![bg 60%](./images/flow_rain.png)
 
 
 ---
+
 
 # Conditionals
 - **If Statement:** Executes a code block if a specified condition is true.
@@ -135,9 +145,9 @@ Variables declared in `setup()` are local to `setup()`. Still, often you want to
 
 ---
 
-# Conditionals in Python
+# Conditionals in p5.js
 Python supports the usual logical conditions from mathematics:
-- Equals: `a == b`
+- Equals: `a == b` (check what `===` does)
 - Not Equals: `a != b`
 - Less than: `a < b`
 - Less than or equal to: `a <= b`
@@ -146,51 +156,119 @@ Python supports the usual logical conditions from mathematics:
 
 ---
 
-# Conditionals in Python
+# Conditionals in p5.js I
 ## if:
-```python
-if x > 10:
+```java
+if (x > 10){
     print("x is greater than 10")
+}
 ```
-
-## elif (else if):
-```python
-if x > 10:
-    print("x is greater than 10")
-elif x == 10:
-    print("x is 10")
-```
-
 ## else:
-```python
-if x > 10:
-    print("x is greater than 10")
-else:
-    print("x is 10 or less")
+```java
+if (x > 10) {
+    print("x is greater than 10");
+  } else {
+    print("x is 10 or less");
+  }
 ```
+---
+## Conditionals in p5.js II
 
+## else if:
+```java
+x = 13;
+  if (x > 10) {
+    print("x is greater than 10");
+  } else if (x == 10) {
+    print("x is 10 or less");
+  }
+```
 You can also combine conditions using logical operators (`and, or, not`):
-```python
-if x > 10 and y < 5:
-    print("x is greater than 10 and y is less than 5")
+```java
+if (x > 10 && y<5){
+    print("x is greater than 10");
+  }
 ```
 
 ---
 
-# Conditionals in Py.Processing
+# Conditionals in p5.js
 For instance, to animate a circle moving across the screen and to make it wrap around when it reaches the edge:
-```python
-x_pos = 0
+```java
+var x_pos = 0; //set the x postion
 
-def setup():
-    size(400, 400)
+function setup() {
+  createCanvas(400, 400);
+}
 
-def draw():
-    global x_pos
-    background(240)
-    ellipse(x_pos, height/2, 50, 50)
-    x_pos += 2
+function draw() {
+  background(220);
+  ellipse(x_pos, height / 2, 50, 50);
+  x_pos += 2;
+  if (x_pos > 400) {
+    x_pos = 0; // resets x position
+  }
+}
+```
+---
 
-    # Conditional to check if the circle is out of bounds
-    if x
+# Sound in p5.js
+- Let's keep it simple, but if interested explore the p5 reference
+- We are going to load and play sounds, plenty other ways to work with sound.
+- SoundFile object with a path to a file.
+- The p5.SoundFile may not be available immediately because it loads the file information asynchronously.
+- To do something with the sound as soon as it loads pass the name of a function as the second parameter.
+- Only one file path is required. However, audio file formats (i.e. mp3, ogg, wav and m4a/aac) are not supported by all web browsers.
+
+---
+<style scoped>
+  .top-title h1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+  }
+</style>
+
+<!-- Slide with a custom title style -->
+<div class="top-title">
+
+# p5 sound demo
+
+![bg 80%](./images/p5_sound_05.png)
+
+</div>
+
+---
+# Code
+```java
+function preload() {
+  // Load the sound file
+  sound = loadSound('sound.mp3');
+  sound1 = loadSound('balltap.wav');
+}
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  textAlign(CENTER, CENTER);
+  textSize(24);
+  text('Press "S"or "A" to play sound', width / 2, height / 2);
+}
+
+function keyPressed() {
+  if (key === 's' || key === 'S') {
+    // Play the sound when 's' is pressed
+    sound.play();
+  }
+  if (key === 'a' || key === 'a') {
+    // Play the sound when 's' is pressed
+    sound1.play();
+  }
+}
 ```
