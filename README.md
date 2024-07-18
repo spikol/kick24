@@ -1,7 +1,7 @@
 # Readme
 18 juli
 
-**Find all the pdfs** on the root of the repo for slides for each day and the new worksheets
+**Find all the pdfs** on the root of the repo for slides for each day and the new worksheets. For Arduino look in the hackathon directory for assorted sketches in a zip-file.
 
 ## To Do
 - [ ] Convert Hackathon slides
@@ -17,14 +17,14 @@ Check out [online examples](https://editor.p5js.org/spikol/collections/cP5rBQaGT
 
 ## Team
 - Daniel Spikol
-- Alexander Mittet
-- Thea Nyks Meggele
-- Jeppe Fræhr Møller
-- Mathilde Kjer Parlo
-- Andrea Sebro Rasmussen
-- Casper Brahe Rützou 
-- Viktoria Silke Sofia Strandbygaard
-- Lucas Østergaard Jarmer
+- Alexander 
+- The
+- Jeppe
+- Mathilde
+- Andrea
+- Casper
+- Viktoria
+- Lucas
 
 ## Plan
 ### Day 1
