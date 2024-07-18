@@ -1,0 +1,146 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{just-to-be-sure}{%
+\subsection{Just to be sure}\label{just-to-be-sure}}
+
+for the teacher :-)
+
+\hypertarget{pair-programming}{%
+\subsubsection{Pair Programming}\label{pair-programming}}
+
+\begin{itemize}
+\item
+  Pair of programmers develop higher-quality software
+\item
+  A little longer development time, but a lot less time spent finding
+  bugs afterwards.
+\item
+  Cosier and more fun than working alone.
+\item
+  Improved knowledge sharing between programmers, less time spent on
+  coordination
+\item
+  Increased learning (and that's why you're here, isn't it?), you take
+  turns teaching each other
+\item
+  Otherwise, not pronounced knowledge and habits are exchanged.
+\end{itemize}
+
+\hypertarget{pair-programming-in-practice}{%
+\subsubsection{Pair Programming in
+Practice}\label{pair-programming-in-practice}}
+
+\hypertarget{two-programmers-one-computer}{%
+\paragraph{Two programmers, one
+computer}\label{two-programmers-one-computer}}
+
+\begin{itemize}
+\item
+  Driver - has hands on the wheel (keyboard) and eyes on the road
+  (screen)
+\item
+  Navigator - focuses on the destination and how to get there.
+\end{itemize}
+
+\hypertarget{rules}{%
+\paragraph{Rules}\label{rules}}
+
+\begin{itemize}
+\item
+  You may not be commanding your partner.
+\item
+  The navigator may not touch the mouse or keyboard.
+\item
+  The driver may not ignore the navigator.
+\item
+  You must swap roles often (e.g. every 20 minutes)
+\item
+  Try to keep a conversation going.
+\end{itemize}
+
+\hypertarget{conversations-between-driver-and-navigator}{%
+\subsubsection{Conversations between driver and
+navigator}\label{conversations-between-driver-and-navigator}}
+
+\begin{itemize}
+\item
+  Good pair programming is not without communication and talk.
+\item
+  Talk together as a pair all the time about what is happening on the
+  screen.
+\item
+  Reflect on what you have done and where you are going.
+\item
+  The driver tells what they are doing, and what is happening.
+\item
+  The navigator comments to ensure they are doing the right thing and
+  tells them what to do now and later.
+\end{itemize}
+
+\hypertarget{examples}{%
+\paragraph{Examples:}\label{examples}}
+
+\begin{itemize}
+\item
+  Driver: "Now we create a new function to draw a sunflower."
+\item
+  Driver: "Now we test if XYZ works before we continue."
+\item
+  Navigator: "How can you do that?"
+\item
+  Navigator: "Can you explain what you are doing?"
+\end{itemize}
+
+\end{document}
