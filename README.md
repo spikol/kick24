@@ -1,5 +1,5 @@
 # Readme
-18 juli
+09 aug
 
 **Find all the pdfs** on the root of the repo for slides for each day and the new worksheets. For Arduino look in the hackathon directory for assorted sketches in a zip-file.
 
@@ -11,6 +11,7 @@
 - [x] Get Arduino Kits
 - [x] Absalon sites foundation
 - [ ] Creative computing slides
+- [ ] Check worksheet 3 and other days
 
 ## P5 Library of examples
 Check out [online examples](https://editor.p5js.org/spikol/collections/cP5rBQaGT)
