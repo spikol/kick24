@@ -1,18 +1,18 @@
 # Readme
-09 aug
+12 aug
 
 **Find all the pdfs** on the root of the repo for slides for each day and the new worksheets. For Arduino look in the hackathon directory for assorted sketches in a zip-file.
 
 ## To Do
 - [ ] Convert Hackathon slides
 - [x] Hackathon Materials (cards and pdf)
-- [ ] Update Sound workbook
-- [ ] Fix day 2, 3, and 4 Slides
+- [x] Update Sound workbook
+- [x] Fix day 2, 3, and 4 Slides
 - [x] Get Arduino Kits
 - [x] Absalon sites foundation
 - [ ] Creative computing slides
-- [ ] Check worksheet 3 and other days
-- [ ] Put together Marshmallow Kits
+- [x] Check worksheet 3 and other days
+- [x] Put together Marshmallow Kits
 
 ## P5 Library of examples
 Check out [online examples](https://editor.p5js.org/spikol/collections/cP5rBQaGT)

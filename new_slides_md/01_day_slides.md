@@ -371,4 +371,3 @@ function draw(){
 - **Local Scope
   - Variables declared within function or blocks
 
----

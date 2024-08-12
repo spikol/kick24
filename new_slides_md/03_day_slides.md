@@ -4,7 +4,13 @@ description: Day 3 - Conditionals and Variable Scoping
 paginate: true
 marp: true
 ---
+---
+<!-- _backgroundColor: black -->
+![bg 50%](./image_bank/spamship.png)
+<!-- _color: white -->
+# Hello Wednesday 
 
+---
 # Kickstart-kursus i programmering 23 dag 3
 **Daniel Spikol**  
 *ds@di.ku.dk*
@@ -32,14 +38,14 @@ marp: true
 
 ---
 
-# Variable Scoping Py.Processing
+# Variable Scoping Processing
 - The principles of variable scoping in Processing.py largely follow those of Python but with some considerations given the environment of Processing's draw loop and function setup.
 - Scoping in programming refers to the region or portion of the code where a variable or function is defined and can be accessed or modified.
 - The concept of scoping is crucial for understanding variable lifetimes, visibility, and potential naming conflicts in your programs. It helps manage and organize data and functionality, enabling modular and maintainable code designs.
 
 ---
 
-# Variable Scoping Py.Processing
+# Variable Scoping Processing
 ## Global Variables
 **Global Variables**: Variables declared outside of any function are global to the sketch. They can be accessed and modified from any function, but if you want to modify them inside a function, you must declare them as `global` within that function.
 
@@ -60,7 +66,7 @@ function draw() {
 
 ---
 
-# Variable Scoping Py.Processing
+# Variable Scoping Processing
 ## Local Variables
 **Local Variables**: Variables declared inside a function are local to that function. They cannot be accessed outside of the function, and their memory is reclaimed once the function execution is complete.
 
@@ -79,7 +85,7 @@ function draw() {
 
 ---
 
-# Variable Scoping Py.Processing
+# Variable Scoping Processing
 **The setup() and draw() Functions**: In Processing.py, `setup()` is called once at the beginning of the sketch, and `draw()` is called repeatedly, producing frames.
 
 ```java

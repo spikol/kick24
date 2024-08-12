@@ -4,7 +4,11 @@ description: Day 2 - Variables and Functions
 paginate: true
 marp: true
 ---
-
+<!-- _backgroundColor: black -->
+![bg 50%](./image_bank/tarot_lovers.png)
+<!-- _color: white -->
+# Hello Tuesday 
+---
 
 # Kickstart-kursus i programmering 24 dag 2
 **Daniel Spikol**  
@@ -23,14 +27,14 @@ marp: true
 - Drawing with Processing
 - Variables
 - Functions maybe...
-- 
+  
 ---
 
 # Todays Plan - IFOs
-- Let's dig into basic Python and Functions
+- Let's dig into basic p5js and Functions
 - Making some Animations
 - Exploring Pair Programming
-- 
+  
 ---
 
 # What the heck is p5.js
@@ -117,7 +121,7 @@ add 1 cup of sugar
 
 ---
 
-# Py. Processing Examples
+# p5js – Processing Examples
 ```javascript
 function setup() {
   createCanvas(400, 400);
@@ -206,12 +210,10 @@ Examples:
 ---
 
 # Recap
-- Python Syntax and Structure
+-  Syntax and Structure
 - Functions and Animations
 - Debugging
 - Pair Programming
-
-![height:5cm](images/mpfc_game)
 
 ---
 

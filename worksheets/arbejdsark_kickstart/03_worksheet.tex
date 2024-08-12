@@ -11,20 +11,38 @@ Open the Aquarium project. Add the following ``fish-draw-function'':
 
 \begin{lstlisting}[language=JavaScript]
 function setup() {
+  // Set up the canvas
   createCanvas(400, 400);
+  
+  // Set the background color to light grey
   background(220);
+}
 
-  // basic fish shape
-  fishX = 150;
+function draw() {
+  // Draw the first fish at x-coordinate 100
+  make_fish(100);
+  
+  // Draw the second fish at x-coordinate 280
+  make_fish(280);
+}
+
+function make_fish(fishX) {
+  // Draw the basic fish shape
+  // Draw fish body  (fishX, 200) with a width of 120 and height of 75
   ellipse(fishX, 200, 120, 75);
+  
+  // Draw the fish tail using a triangle
+  // The triangle points are at (fishX - 60, 200), (fishX - 90, 170), 
+  //and (fishX - 90, 230)
   triangle(fishX - 60, 200, fishX - 90, 170, fishX - 90, 230);
 
-  // eye
+  // Draw the fish eye
+  // The eye is a small ellipse located at (fishX + 30, 190) 
+  //with a size of 15x15
   eyeSize = 15;
   ellipse(fishX + 30, 190, eyeSize, eyeSize);
 }
 
-function draw() {}
 \end{lstlisting}
 
 Now it's much faster to fill the aquarium with fish and we avoid copying code.
@@ -32,6 +50,24 @@ Now it's much faster to fill the aquarium with fish and we avoid copying code.
 \tcbsubtitle{Task:} Create your own \texttt{drawFish(x, y)} function that draws your entire fish with colour, fins and eyes.
 
 \end{exercisebox}
+
+\begin{exercisebox}[adjusted title=Notes and Extra]
+\begin{itemize}
+\item Try changing $50$ to another number
+\item Try changing the line \ttpy{x = x + 1} to \ttpy{x = x - 1} or to \ttpy{x = x + 5}
+\item Try moving the call to \ttpy{background} from \ttpy{draw}
+ to \ttpy{setup} - what happens?
+\end{itemize}
+
+\end{exercisebox}
+
+\begin{exercisebox}[adjusted title=BE AWARE]
+
+When using setup/draw, call draw functions outside of setup
+and draw are not allowed. Everything must be moved into the two functions.
+
+\end{exercisebox}
+
 
 \begin{exercisebox}[adjusted title=Green City continued]
 Over in the electric car project, you can also try writing a function

@@ -1,5 +1,86 @@
 \newpage
 \stepcounter{handout}
+
+\begin{exercisebox}[adjusted title= Introduction to Lists and For Loops]
+With \ttpy{for loops}, we can avoid duplicated code and iteratively operate, such as drawing 3 circles on a screen.
+Start a new project and insert the following code:
+
+\begin{lstlisting}[language=JavaScript]
+// Initialize Lists
+let xs = [30, 50, 70, 90, 110, 130];
+let ys = [30, 50, 70, 90, 110, 130];
+
+function setup() {
+  createCanvas(400, 400);
+  background(0);
+}
+
+function drawCircle(x, y) {
+  noStroke();
+  bubble_R = random(256);
+  bubble_G = random(256);
+  bubble_B = random(256);
+  fill(bubble_R, bubble_G, bubble_B);
+  circle(x, y, 25);
+}
+
+function draw() {
+  for (var i = 0; i < xs.length; i++) {
+    drawCircle(xs[i], ys[i]);
+  }
+}
+\end{lstlisting}
+
+What happens when you run the code? Explain here how a loop produces the result, and give yourself time to understand the logic.
+
+\end{exercisebox}
+
+\begin{exercisebox}[adjusted title= More with Lists and For Loops]
+The following code snippet has a few changes: We now use a loop to generate our list! Paste the code into a new project and consider the differences in the various loops.
+
+\begin{lstlisting}[language=JavaScript]
+// Initialize Lists
+let circleList = [];
+
+function setup() {
+  createCanvas(400, 400);
+  background(0);
+}
+
+function drawCircle(x, y) {
+  stroke(255, 255, 255);
+  noStroke();
+  bubble_R =random(255);
+  bubble_G =random(255);
+  bubble_B =random(255);
+  fill(bubble_R, bubble_G, bubble_B);
+  circle(x, 200, 50);
+}
+
+function createCircleList(n) {
+  for (var i=0; i < n; i++) {
+    append(circleList, i*60);
+  }
+}
+
+function draw() {
+  createCircleList(10);
+  for (var i = 0; i < circleList.length; i++) {
+    drawCircle(i);
+  }
+}
+\end{lstlisting}
+
+\noindent
+
+\vspace{2mm}
+\noindent
+
+\begin{itemize}
+  \item Use loops and lists to move your fish or make more fish in different locations. Plus in Green City if you want.
+\end{itemize}
+\end{exercisebox}
+
 \begin{exercisebox}[adjusted title= Finite state machines]
 
 \begin{minipage}{1.0\linewidth}

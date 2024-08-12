@@ -143,82 +143,141 @@ the wind speed every second.
  \end{exercisebox}
 
 
-\begin{exercisebox}[adjusted title= Introduction to Lists and For Loops]
-With \ttpy{for loops}, we can avoid duplicated code and iteratively perform an operation, such as drawing 3 circles on a screen.
-Start a new project and insert the following code:
+\begin{exercisebox}[adjusted title= Introduction to Sounds]
+In this small worksheet, we will add sound files to make sound effects!
+
+\begin{enumerate}
+\item First check reference https://p5js.org/reference/p5.MediaElement/play/
+\item Then download the sound files from ABASALON 
+\item Also check out the sound sketch also uploaded
+\item Create a new file and names  \ttpy{sound01}
+
+\end{enumerate}
+
 
 \begin{lstlisting}[language=JavaScript]
-// Initialize Lists
-let xs = [30, 50, 70, 90, 110, 130];
-let ys = [30, 50, 70, 90, 110, 130];
-
-function setup() {
-  createCanvas(400, 400);
-  background(0);
+function preload() {
+  // Load the sound files before the program starts
+   // Load the first sound file (e.g., a music track or sound effect)
+  sound = loadSound('sound.mp3'); 
+  // Load the second sound file (e.g., a ball tap sound)
+  sound1 = loadSound('balltap.wav');  
 }
 
-function drawCircle(x, y) {
-  noStroke();
-  bubble_R = random(256);
-  bubble_G = random(256);
-  bubble_B = random(256);
-  fill(bubble_R, bubble_G, bubble_B);
-  circle(x, y, 25);
+function setup() {
+  // Setup the canvas size
+  createCanvas(400, 400);  // Create a canvas of 400x400 pixels
 }
 
 function draw() {
-  for (var i = 0; i < xs.length; i++) {
-    drawCircle(xs[i], ys[i]);
+  // Draw the background and instructions
+  background(220);  // Set the background color to light grey (RGB value: 220)
+  // Align text to the center horizontally and vertically
+  textAlign(CENTER, CENTER);  
+  textSize(24);  // Set the text size to 24 pixels
+  // Display the instructions in the center of the canvas
+  text('Press "S" or "A" to play sound', width / 2, height / 2);  
+}
+
+function keyPressed() {
+  // Detect key presses and play the corresponding sound
+  if (key === 's' || key === 'S') {
+    // Play the first sound when the 'S' key is pressed (case insensitive)
+    sound.play();
+  }
+  if (key === 'a' || key === 'A') {
+    // Play the second sound when the 'A' key is pressed (case insensitive)
+    sound1.play();
   }
 }
 \end{lstlisting}
 
-What happens when you run the code? Explain here how a loop produces the result, and give yourself time to understand the logic.
-
-\end{exercisebox}
-
-\begin{exercisebox}[adjusted title= More with Lists and For Loops]
-The following code snippet has a few changes: We now use a loop to generate our list! Paste the code into a new project and consider the differences in the various loops.
-
-\begin{lstlisting}[language=JavaScript]
-// Initialize Lists
-let circleList = [];
-
-function setup() {
-  createCanvas(400, 400);
-  background(0);
-}
-
-function drawCircle(x, y) {
-  stroke(255, 255, 255);
-  noStroke();
-  bubble_R =random(255);
-  bubble_G =random(255);
-  bubble_B =random(255);
-  fill(bubble_R, bubble_G, bubble_B);
-  circle(x, 200, 50);
-}
-
-function createCircleList(n) {
-  for (var i=0; i < n; i++) {
-    append(circleList, i*60);
-  }
-}
-
-function draw() {
-  createCircleList(10);
-  for (var i = 0; i < circleList.length; i++) {
-    drawCircle(i);
-  }
-}
-\end{lstlisting}
-
-\noindent
-
-\vspace{2mm}
-\noindent
+\textbf{Descrptions}
 
 \begin{itemize}
-  \item Use loops and lists to move your fish or make more fish in different locations. Plus in Green City if you want.
+    \item \textbf{`preload()` function}: Loads the sound files into memory before the sketch starts. This ensures that the sounds are ready to be played when triggered.
+    \item \textbf{`setup()` function}: Sets up the canvas where the sketch will be displayed, specifying its size (400x400 pixels).
+    \item \textbf{`draw()` function}: Continuously runs in a loop, updating the background color and displaying the instruction text centered on the canvas.
+    \item \textbf{`keyPressed()` function}: Listens for specific key presses ('S' or 'A') and plays the corresponding sound when either key is pressed.
 \end{itemize}
+
 \end{exercisebox}
+
+%With \ttpy{for loops}, we can avoid duplicated code and iteratively perform an operation, such as drawing 3 circles on a screen.
+%Start a new project and insert the following code:
+%
+%\begin{lstlisting}[language=JavaScript]
+%// Initialize Lists
+%let xs = [30, 50, 70, 90, 110, 130];
+%let ys = [30, 50, 70, 90, 110, 130];
+%
+%function setup() {
+%  createCanvas(400, 400);
+%  background(0);
+%}
+%
+%function drawCircle(x, y) {
+%  noStroke();
+%  bubble_R = random(256);
+%  bubble_G = random(256);
+%  bubble_B = random(256);
+%  fill(bubble_R, bubble_G, bubble_B);
+%  circle(x, y, 25);
+%}
+%
+%function draw() {
+%  for (var i = 0; i < xs.length; i++) {
+%    drawCircle(xs[i], ys[i]);
+%  }
+%}
+%\end{lstlisting}
+%
+%What happens when you run the code? Explain here how a loop produces the result, and give yourself time to understand the logic.
+%
+%\end{exercisebox}
+%
+%\begin{exercisebox}[adjusted title= More with Lists and For Loops]
+%The following code snippet has a few changes: We now use a loop to generate our list! Paste the code into a new project and consider the differences in the various loops.
+%
+%\begin{lstlisting}[language=JavaScript]
+%// Initialize Lists
+%let circleList = [];
+%
+%function setup() {
+%  createCanvas(400, 400);
+%  background(0);
+%}
+%
+%function drawCircle(x, y) {
+%  stroke(255, 255, 255);
+%  noStroke();
+%  bubble_R =random(255);
+%  bubble_G =random(255);
+%  bubble_B =random(255);
+%  fill(bubble_R, bubble_G, bubble_B);
+%  circle(x, 200, 50);
+%}
+%
+%function createCircleList(n) {
+%  for (var i=0; i < n; i++) {
+%    append(circleList, i*60);
+%  }
+%}
+%
+%function draw() {
+%  createCircleList(10);
+%  for (var i = 0; i < circleList.length; i++) {
+%    drawCircle(i);
+%  }
+%}
+%\end{lstlisting}
+%
+%\noindent
+%
+%\vspace{2mm}
+%\noindent
+%
+%\begin{itemize}
+%  \item Use loops and lists to move your fish or make more fish in different locations. Plus in Green City if you want.
+%\end{itemize}
+%\end{exercisebox}
