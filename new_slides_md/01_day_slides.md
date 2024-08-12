@@ -106,10 +106,9 @@ DIKU Københavns Universitet
 ---
 
 # Teams and Instructors
-- **Team Alpha:** Alexander and Thea &rarr; room 
-- **Team Bravo:** Mathilde and Jeppe &rarr; room 
-- **Team Charlie:** Casper and Andrea &rarr; room 
-- **Team Delta:** Viktoria and Lucas &rarr; room 
+- **Team Alpha:** Alexander, Viktoria, and Thea &rarr; UP1 workroom 1 
+- **Team Bravo:** Mathilde and Jeppe &rarr; UP1 workroom 2  
+- **Team Charlie:** Casper, Lucas, and Andrea &rarr; UP1 workroom 3  
 
 ![height:6cm](images/team_rooms)
 
@@ -130,16 +129,6 @@ DIKU Københavns Universitet
     font-size: 2em;
     margin: 0;
   }
-</style>
-
-<!-- Slide with a custom title style -->
-<div class="top-title">
-
-# HCØ Workrooms
-
-
-![bg](./images/team_rooms.png)
-</div>
 
 ---
 <style scoped>

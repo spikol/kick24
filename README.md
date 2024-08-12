@@ -12,6 +12,7 @@
 - [x] Absalon sites foundation
 - [ ] Creative computing slides
 - [ ] Check worksheet 3 and other days
+- [ ] Put together Marshmallow Kits
 
 ## P5 Library of examples
 Check out [online examples](https://editor.p5js.org/spikol/collections/cP5rBQaGT)
