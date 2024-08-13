@@ -1,11 +1,11 @@
 # Readme
-12 aug
+13 aug
 
 **Find all the pdfs** on the root of the repo for slides for each day and the new worksheets. For Arduino look in the hackathon directory for assorted sketches in a zip-file.
 
 ## To Do
-- [ ] Brainstorming Slides
-- [ ] Creative computing slides
+- [ ] Worksheet 6 FSM
+- [ ] Creative computing slides (uge 34)
 - [ ] Convert Hackathon slides
 - [ ] Hackathon Materials (cards and pdf)
 - [x] Update Sound workbook
@@ -14,6 +14,7 @@
 - [x] Absalon sites foundation
 - [x] Check worksheet 3 and other days
 - [x] Put together Marshmallow Kits
+- [x] Brainstorming Slides
 
 
 ## P5 Library of examples
