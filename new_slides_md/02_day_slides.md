@@ -15,7 +15,7 @@ marp: true
 *ds@di.ku.dk*
 
 **DIKU \\ Københavns Universitet**  
-**15. august 2023**
+**13. august 2023**
 
 ![height:1.5cm](ku_logo_dk)
 
