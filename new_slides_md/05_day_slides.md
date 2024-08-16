@@ -52,11 +52,29 @@ paginate: true
 - Show and Talk
 
 ---
+# Hackathon
+![bg right 90%](./image_bank/hacka.png)
+- Sign up via StudieStart
+- August 28th 0900 - 1600
+
+---
+# DIKU things
+
+1. HCC Open house October 30th Course info, research assistants
+2. DIKU Bits - find out about research
+3. Mentors, TAs, Research Opportunitites
+4. Study Abroad or up the road at DTU and ITU
+5. Summer schools and AI Pioneer Center
+
+---
+# Poll: Show and Talk
+
+- 10:30 to 12:00 (end earlier)
+- 13:30 to 14:30 (end early)
+---
 # SURVEY!
 - Please take 5 minutes
-- 
-
-
+- Absalon!
 
 ---
 
