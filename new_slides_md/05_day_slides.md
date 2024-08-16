@@ -61,10 +61,12 @@ paginate: true
 # DIKU things
 
 1. HCC Open house October 30th Course info, research assistants
-2. DIKU Bits - find out about research
-3. Mentors, TAs, Research Opportunities
-4. Study Abroad or up the road at DTU and ITU
-5. Summer schools and AI Pioneer Center
+    - https://di.ku.dk/english/research/human-centred-computing/
+2. CS4All - https://di.ku.dk/diversitet-og-inklusion/cs4all/
+3. DIKU Bits - find out about research - https://di.ku.dk/diku-bits/
+4. Mentors, TAs, Research Opportunities
+5. Study Abroad or up the road at DTU and ITU
+6. Summer schools and AI Pioneer Center
 
 ---
 # Poll: Show and Talk
