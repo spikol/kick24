@@ -62,7 +62,7 @@ paginate: true
 
 1. HCC Open house October 30th Course info, research assistants
 2. DIKU Bits - find out about research
-3. Mentors, TAs, Research Opportunitites
+3. Mentors, TAs, Research Opportunities
 4. Study Abroad or up the road at DTU and ITU
 5. Summer schools and AI Pioneer Center
 
