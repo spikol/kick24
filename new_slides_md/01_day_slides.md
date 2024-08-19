@@ -5,9 +5,10 @@ paginate: true
 marp: true
 ---
 <!-- _backgroundColor: black -->
-![bg 60%](./image_bank/tarot_fool.png)
-<!-- _color: white -->
-# Hello World 
+![bg 60%](./image_bank/rabbit_fox_pair.png)
+<!-- _color: orange -->
+
+# Hello World
 
 ---
 
@@ -106,9 +107,11 @@ DIKU Københavns Universitet
 ---
 
 # Teams and Instructors
-- **Team Alpha:** Alexander, Viktoria, and Thea &rarr; UP1 workroom 1 
-- **Team Bravo:** Mathilde and Jeppe &rarr; UP1 workroom 2  
-- **Team Charlie:** Casper, Lucas, and Andrea &rarr; UP1 workroom 3  
+
+- **Team Alpha:** Alexander and Thea &rarr; room Øv-1-0-14
+- **Team Bravo:** Mathilde and Jeppe &rarr; room Øv-1-0-10
+- **Team Charlie:** Casper and Andrea &rarr; room Øv-1-0-04
+- **Team Delta:** Viktoria and Lucas &rarr; room Øv-3-0-25
 
 ![height:6cm](images/team_rooms)
 
