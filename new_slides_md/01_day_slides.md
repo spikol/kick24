@@ -371,6 +371,6 @@ function draw(){
 - **Global Variables**:
   - Declared outside any function.
   - Accessible from any part of the program.
-- **Local Scope
+- **Local Scope**
   - Variables declared within function or blocks
 
