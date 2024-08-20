@@ -15,7 +15,7 @@ marp: true
 *ds@di.ku.dk*
 
 **DIKU \\ Københavns Universitet**  
-**13. august 2023**
+**20. august 2023**
 
 ![height:1.5cm](ku_logo_dk)
 
@@ -126,6 +126,7 @@ add 1 cup of sugar
 function setup() {
   createCanvas(400, 400);
   background(220);
+  drawTree(20);
   drawTree(160);
 }
 
