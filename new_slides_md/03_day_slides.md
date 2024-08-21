@@ -38,7 +38,7 @@ marp: true
 ---
 
 # Variable Scoping Processing
-- The principles of variable scoping in Processing.py largely follow those of Python but with some considerations given the environment of Processing's draw loop and function setup.
+- The principles of variable scoping in Processing.py largely follow those of JavaScript but with some considerations given the environment of Processing's draw loop and function setup.
 - Scoping in programming refers to the region or portion of the code where a variable or function is defined and can be accessed or modified.
 - The concept of scoping is crucial for understanding variable lifetimes, visibility, and potential naming conflicts in your programs. It helps manage and organize data and functionality, enabling modular and maintainable code designs.
 
@@ -151,7 +151,7 @@ Variables declared in `setup()` are local to `setup()`. Still, often you want to
 ---
 
 # Conditionals in p5.js
-Python supports the usual logical conditions from mathematics:
+p5js supports the usual logical conditions from mathematics:
 - Equals: `a == b` (Loose Equality Operator)
 - Equals: `a === b`(Strict Equality Operator)
 - Not Equals: `a != b`
