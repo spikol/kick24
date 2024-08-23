@@ -7,3 +7,19 @@
 4. Variables and screen movement - how to get the fish moving - 
 5. Sound and Images
 6. REFERENCES - rect
+
+21 Aug
+- Monday 26 Jeppe Viktoria
+- Tues 27  Lucas Thea
+- worksheet 1 and 2 needs some clarification plus 1 fix
+- Type code 
+- more draw function buit in functions
+- loops and arrays
+- names of worksheep
+- Ask questions - 
+- standing near students
+- 
+
+
+
+
