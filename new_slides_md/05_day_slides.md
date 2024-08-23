@@ -6,8 +6,8 @@ paginate: true
 
 <!-- _backgroundColor: black -->
 # Thanks!<!--fit-->
-<!-- _color: pink -->
-![bg 50%](./image_bank/tarot_lovers.png)
+<!-- _color: gold -->
+![bg 50%](./image_bank/dog_cakes.png)
 
 ---
 # Kickstart-kursus i programmering 23 dag 5
@@ -18,18 +18,11 @@ paginate: true
 ### ds@di.ku.dk
 
 ## DIKU, Københavns Universitet
-### 16. august 2023
+### 22. august 2023
 
 
 ---
 
-# Recap from Thursday
-
-- Creative Computing
-- FSM
-- Projects
-
----
 
 # Today's Plan
 
@@ -38,10 +31,10 @@ paginate: true
 - 9.30 - 11.45 Project work
 - 11.45 - 12.30 Lunch
 - 12.30 - 13.00 Final prep
-- 13.00 - 13.30 Show and Talk Session Alpha
-- 13.30 - 14.00 Show and Talk Session Bravo
-- 14.00 - 14.30 Show and Talk Session Charlie
-- 14.30 - Thanks!
+- 13.00 - 13.30 Show and Talk Session Delta
+- 13.30 - 14.00 Show and Talk Session Charlie
+- 14.00 - 14.30 Show and Talk Session Bravo
+- 14.30 - 15:30 Show and Talk Session Alpha
 
 ---
 
@@ -54,7 +47,7 @@ paginate: true
 ---
 # Hackathon
 ![bg right 90%](./image_bank/hacka.png)
-- Sign up via StudieStart
+- Show up if not going on DIKU Hyttetur
 - August 28th 0900 - 1600
 
 ---
@@ -69,11 +62,6 @@ paginate: true
 6. Summer schools and AI Pioneer Center
 
 ---
-# Poll: Show and Talk
-
-- 10:30 to 12:00 (end earlier)
-- 13:30 to 14:30 (end early)
----
 # SURVEY!
 - Please take 5 minutes
 - Absalon!
@@ -82,20 +70,24 @@ paginate: true
 
 # Show and Talk: Sessions
 
-### Round 1 KL 13.00 - 13:30
-- **Host Group:** Alpha
-  - **Visitors:** Bravo and Charlie
+**Round 1 &rarr; KL 13.00 - 13:30 &rarr; Host Delta**
+  - **Visitors**: Alpha, Bravo, and Charlie
+  
+**Round 2 &rarr; KL 13.30 - 14.00 &rarr; Host Charlie**
+  - **Visitors:** Alpha, Beta, and Delta
+ 
+**Round 3 &rarr; 14:00 - 14:30 &rarr; Host Bravo**
+  - **Visitors:** Alpha, Charlie, and Delta
 
-### Round 2 KL 13.30 - 14.00
-- **Host Group:** Bravo
-  - **Visitors:** Alpha and Charlie
-
-### Round 3 14:00 - 14:30
-- **Host Group:** Charlie
-  - **Visitors:** Alpha and Bravo
-
+**Round 3 &rarr; 14:00 - 14:30 &rarr; Host Alpha**
+  - **Visitors:** Bravo, Charlie and Delta
 ---
 <!-- _color: white -->
 # Thanks! Remember Grit<!--fit -->
 
 ![bg](./images/grit.jpg)
+
+---
+<!-- _color: yellow -->
+# Doesn't always work with your plans<!--fit -->
+![bg](./image_bank/grit2.jpg)
