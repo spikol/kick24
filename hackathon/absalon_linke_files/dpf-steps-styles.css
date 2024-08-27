@@ -1,0 +1,2362 @@
+@import url("dpf-steps-styles-pay.css?v=9");
+@import url("components/black-friday.css?v=2");
+
+.dpf-submit-text{
+    visibility: visible;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.dpf-header-wrap {
+    position: relative;
+}
+
+nav.nsf-header,
+header.dpf-header-wrap {
+    box-shadow: unset;
+    border: 0;
+}
+
+.plan-dpf-main-wrapper.register-wrapper .section-email-feature {
+    margin-top: 32px;
+}
+
+.section-login-signup>div>div>div.-col-form {
+    margin-top: 55px;
+}
+
+.plan-dpf-main-wrapper .button-wrp>a {
+    text-align: center;
+    font-weight: 600;
+}
+
+.plan-dpf-main-wrapper .-col-form {
+    /* background-color: var(--white) !important; */
+}
+
+.plan-dpf-main-wrapper .-main-cols {
+    overflow: unset !important;
+}
+
+.plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap {
+    margin-top: 60px;
+}
+
+.check-icon-wrap {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 14px;
+}
+
+.check-icon-wrap .check-icon::after {
+    content: "\e91a";
+    font-family: "qr-icons" !important;
+    color: white;
+    background-color: var(--brand-color-primary);
+    font-size: 22px;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.plan-dpf-main-wrapper.register-wrapper .dpf-submit-btn {
+    display: flex;
+    place-content: center;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan-card input:hover {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.plan-dpf-main-wrapper.register-wrapper .-form-title {
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+
+.plan-cards-main-wrap .plan-dpf-paymethod-title {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.plan-cards-main-wrap .plan-dpf-paymethod-title .plan-paymethod-green {
+    color: var(--brand-color-primary);
+}
+
+#dpf-plans-wrap .dpf-plan-btn {
+    display: flex;
+    place-content: center;
+}
+
+.plan-cards-main-wrap .plan-dpf-q-wrap {
+    padding-top: 30px;
+}
+
+.plan-cards-main-wrap .plan-dpf-q-wrap .plan-dpf-q-heading .q-title {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+}
+
+.plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-icon-wrap {
+    background-color: var(--brand-color-primary);
+    color: var(--white);
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    position: relative;
+}
+
+.plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-icon-wrap::after {
+    content: "?";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+}
+
+.plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-text-area .q-title {
+    font-size: 19px;
+    margin-top: 2px;
+    color: black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.1mm;
+    margin-bottom: 5px;
+}
+
+.plan-cards-main-wrap .plan-dpf-rate-wrap {
+    background: #fff;
+    /* background: linear-gradient(90deg, rgba(253, 253, 253, 0.5) 0%, rgba(243, 243, 243, 0.25) 100%); */
+    box-shadow: 0 0 120px 1px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+}
+
+.plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-head-title {
+    display: block;
+    font-size: 33px;
+    text-align: center;
+    color: black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.1mm;
+}
+
+.plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-wrap .rate-subheading {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-stars-wrap .rate-star {
+    font-size: 26px;
+    color: #ffd700;
+}
+
+.plan-cards-main-wrap .review-full-wrap {
+    padding-top: 25px;
+}
+
+.plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card {
+    border: 2px solid #8080804d;
+    border-radius: 15px;
+    min-height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+}
+
+.plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card .reivew-text {
+    font-size: 16px;
+}
+
+.plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card .reviewer-full-wrap .reviewer-image {
+    height: 50px;
+    width: 50px;
+}
+
+.plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card .reviewer-full-wrap .reviewer-detail .reviewer-name {
+    font-size: 15px;
+    color: black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.1mm;
+    margin-bottom: -5px;
+}
+
+.plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card .reviewer-full-wrap .reviewer-detail .reviewer-position {
+    font-size: 14px;
+}
+
+.plan-cards-main-wrap .plan-dpf-footer-wrap {
+    border-top: 1px solid #00000042;
+}
+
+.plan-cards-main-wrap .plan-dpf-paymethod-title-wrap .shield-icon-wrap .shield-icon {
+    width: 30px;
+    height: auto;
+}
+
+.plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap {
+    padding-top: 15px;
+}
+
+.plan-cards-main-wrap .right-pad form {
+    border-radius: 8px;
+}
+
+.plan-cards-main-wrap .left-pad .dpf-qr-wrap {
+    background-color: #fff !important;
+    background: #fff !important;
+}
+
+@media (min-width: 1600px ) {
+    .set-y-pad{
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+  
+  }
+
+
+@media (min-width: 1200px) {
+
+    .plan-dpf-main-wrapper.register-wrapper{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card {
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    .plan-cards-main-wrap .desktop-qr .dpf-pay-qr-header {
+        margin-top: 35px !important;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap {
+        padding-top: 60px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap.frame-qr-add {
+        padding-top: 32px;
+    }
+
+    .plan-cards-main-wrap #dpf-plans-wrap.qr-frame-active {
+        /* padding-top: 40px; */
+    }
+
+    .plan-cards-main-wrap .desktop-qr {
+        padding: 0px !important;
+        box-shadow: none !important;
+    }
+
+    .plan-cards-main-wrap .dpf-qr-wrap .plan-dpf-qr-full-wrap {
+        padding: 20px 40px 45px 40px;
+    }
+
+    .plan-cards-main-wrap .desktop-q-area {
+        padding: 30px 40px 35px 40px;
+        height: 100%;
+    }
+
+
+    .plan-cards-main-wrap .dpf-qr-wrap .plan-dpf-qr-full-wrap .qr-wrap {
+        margin-top: 25px !important;
+    }
+
+    .plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card .review-text-wrap {
+        margin-bottom: 12px;
+        flex-grow: 1;
+    }
+
+    .plan-cards-main-wrap .right-pad form {
+        padding-left: 26px !important;
+        padding-right: 26px !important;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .plan-dpf-q-heading .q-title {
+        font-weight: 600;
+    }
+
+    .plan-dpf-main-wrapper.isFriday {
+        margin-top: 130px !important;
+    }
+
+    .plan-dpf-main-wrapper.plan-cards-main-wrap {
+        margin-top: 5.75vw;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick,
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad{
+        height: 100%;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .right-pad{
+        height: auto;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .-col-form{
+        height: calc(100% - 35px);
+        background: #fff;
+        box-shadow: 20px -20px 40px rgba(232, 236, 238, 0.25), -20px 20px 30px rgba(232, 236, 238, 0.25);
+        border-radius: 10px;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .-col-form #register-nsf-form{
+        box-shadow: none;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-pay-qr-header {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 900px) {
+    .plan-dpf-main-wrapper.register-wrapper .col-qr-image.dpf-qr-wrap {
+        padding-bottom: 50px;
+    }
+
+    /* .plan-dpf-main-wrapper.pay-dpf .dpf-pay-qr-header {
+        margin-top: 30px;
+    } */
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-pay-qr-header {
+        margin-top: 40px;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper form {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+    .plan-dpf-main-wrapper .-main-cols .right-pad {
+        padding-left: 0px;
+        padding-right: 16px;
+        width: 50%;
+    }
+
+    .plan-dpf-main-wrapper .-main-cols .right-pad {}
+
+    .plan-dpf-main-wrapper .-main-cols .left-pad {
+        padding-left: 16px;
+        padding-right: 0px;
+        width: 50%;
+    }
+
+    .plan-dpf-main-wrapper.section-login-signup .dpf-qr-wrap,
+    .plan-dpf-main-wrapper.section-login-signup .-col-form {
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
+        /* width: 50%; */
+        margin-top: 55px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .-col-form {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-qr-wrap {
+        /* margin-top: 81px !important; */
+        /* padding: 48px 40px !important; */
+        /* width: 48% !important; */
+    }
+
+    .plan-dpf-main-wrapper {
+        padding-top: 20px;
+    }
+
+    .dpf-header-wrap {
+        box-shadow: none !important;
+        border-bottom: none !important;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-section-desktop {
+        margin-top: 60px;
+    }
+
+    /* .plan-cards-main-wrap .plans-pick{
+        padding-top: 84px;
+    } */
+
+    .plan-cards-main-wrap .plans-pick .dpf-qr-wrap {
+        height: 100% !important;
+        margin-top: 35px;
+        gap: 16px !important;
+    }
+
+    .plan-cards-main-wrap .plans-pick .right-pad .-col-form {
+        margin-top: 35px;
+    }
+
+    .plan-cards-main-wrap .desktop-q-area,
+    .plan-cards-main-wrap .dpf-qr-wrap .plan-dpf-qr-full-wrap {
+        box-shadow: 0 0 120px 1px rgba(0, 0, 0, 0.07);
+        border-radius: 8px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap,
+    .plan-dpf-main-wrapper.register-wrapper .-col-form {
+        margin-top: 90px !important;
+    }
+
+    .pay-dpf .-col-form,
+    .pay-dpf .left-pad .dpf-qr-wrap{
+        margin-top: 54px;
+    }
+}
+
+@media(min-width:990px) {
+    .dpf-header-wrap {
+        flex-direction: unset;
+    }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+    .plan-cards-main-wrap .section-email-feature .feature-detail .detail .feature-item-detail .item-description {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 1199.5px) and (min-width: 900px) {
+    .plan-dpf-main-wrapper .container .-main-cols .-col-form {
+        margin-top: 120px;
+        /* width: 50% !important; */
+    }
+
+    .plan-dpf-main-wrapper .container .-main-cols:not(.plans-pick) .dpf-qr-wrap {
+        margin-top: 120px !important;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title {
+        line-height: 29px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .check-icon-wrap {
+        margin-right: 0px;
+    }
+
+    .plan-cards-main-wrap .container .-main-cols.plans-pick .right-pad {
+        width: 50% !important;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad .desktop-qr {
+        box-shadow: none;
+        padding: 0px !important;
+        margin-top: 83px;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad {
+        margin-top: 125px;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad .desktop-qr .plan-dpf-qr-full-wrap {
+        padding: 30px 0px;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad .desktop-qr .plan-dpf-qr-full-wrap .dpf-pay-qr-header {
+        margin-bottom: 20px;
+        margin-top: 25px !important;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card {
+        padding-left: 20px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-text-area {
+        padding-left: 20px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-text-area .q-title {
+        font-size: 17px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-text-area .q-answer {
+        font-size: 14px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap {
+        height: 100%;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .-form-title {
+        font-size: 28px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title,
+    .pay-dpf .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title {
+        font-size: 28px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title {
+        padding-left: 8px;
+        margin-top: 2px;
+    }
+
+    .plan-cards-main-wrap .section-email-feature .feature-detail {
+        height: 40px !important;
+    }
+
+    .plan-cards-main-wrap .section-email-feature {
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 1199.5px) {
+    .section-login-signup.plan-dpf-main-wrapper {
+        max-width: 100% !important;
+    }
+
+    .plan-dpf-main-wrapper .dpf-hr {
+        display: block !important;
+        margin-top: 28px;
+        margin-bottom: 20px;
+    }
+
+    .section-email-feature {
+        margin-top: 75px;
+    }
+
+    /* .left-pad.desktop-qr{
+        display: none;
+    } */
+
+    .section-login-signup.plan-dpf-main-wrapper .section-email-feature .feature-detail .feature-icon-area i.dpf-plan-icon.text-success {
+        font-size: 16px;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper .section-email-feature .feature-detail .feature-icon-area {
+        margin-top: 2px;
+    }
+
+    /* .plan-cards-main-wrap .desktop-q-area{
+        display: none;
+    } */
+
+    /* .plan-cards-main-wrap .paln-dpf-mobile-q-area{
+        display: block !important;
+        margin-top: 25px;
+        border-radius: 23px;
+        border: 1px solid var(--brand-color-primary);
+    } */
+
+    .plan-cards-main-wrap .paln-dpf-mobile-q-area .plan-dpf-q-wrap {
+        background-color: transparent !important;
+        padding-bottom: 30px;
+    }
+
+    .plan-cards-main-wrap .paln-dpf-mobile-q-area .plan-dpf-q-wrap .q-cards {
+        padding-left: 14px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap {
+        /* margin-top: 0px !important; */
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .plan-dpf-main-wrapper.plan-cards-main-wrap {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .plan-cards-main-wrap .section-email-feature {
+        flex-direction: column;
+    }
+
+    .plan-cards-main-wrap .section-email-feature .feature-detail {
+        width: 100%;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-paymethod-title {
+        font-size: 25px;
+    }
+
+    .plan-cards-main-wrap.isFriday {
+        margin-top: 30px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-pay-qr-header {
+        margin-top: 50px;
+    }
+
+    @media (min-width: 900px) {
+        .section-login-signup>div>div>div.-col-form {
+            margin-top: 150px;
+        }
+    }
+
+    @media (max-width: 899.5px) {
+        .section-login-signup.plan-dpf-main-wrapper.register-wrapper .container {
+            max-width: 100%;
+        }
+
+        .section-login-signup {
+            position: relative;
+        }
+
+        .section-login-signup:after {
+            z-index: 0;
+            position: absolute;
+            width: 100%;
+            height: 300px;
+            content: "";
+            background-color: var(--outline-btn-bg);
+            top: -219px;
+        }
+
+        .plan-dpf-main-wrapper.isFriday {
+            margin-top: 70px;
+        }
+    }
+}
+
+@media(max-width:991.98px) {
+    .plan-cards-main-wrap .container {
+        max-width: 950px;
+    }
+}
+
+@media only screen and (max-width: 1099.98px) and (min-width: 991px) {
+    .dpf-step-block nav{
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) and (min-width: 900px) {
+    .plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form form .-form-title {
+        font-size: 27px !important;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper .col-qr-image .heading-wrp p {
+        font-size: 30px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-paymethod-cards-wrap .pay-method-card .pay-card {
+        padding: 7px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-paymethod-cards-wrap .dpf-pay-method-wrap .pay-method-card .image-card-wrap {
+        width: 32px;
+    }
+
+    .plan-cards-main-wrap .left-pad .desktop-qr .q-cards {
+        padding-bottom: 20px;
+    }
+
+    .plan-dpf-main-wrapper .container .-main-cols .-col-form {
+        height: calc(100% - 120px);
+    }
+
+    .plan-cards-main-wrap .plans-pick #register-nsf-form {
+        height: 100%;
+    }
+
+    .plan-cards-main-wrap .plans-pick .right-pad .plan-dpf-paymethod-wrap {
+        margin-top: 15px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title,
+    .plan-cards-main-wrap .dpf-qr-wrap .dpf-pay-qr-header .heading-wrp p,
+    .pay-dpf .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title {
+        font-size: 27px !important;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .-form-title {
+        font-size: 27px;
+    }
+
+    .dpf-step-block>nav ol.custom-breadcrumbs li div span.text {
+        font-size: 14px;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad .desktop-qr .plan-dpf-qr-full-wrap .dpf-pay-qr-header {
+        margin-top: 29px !important;
+    }
+}
+
+@media only screen and (max-width: 960.98px) and (min-width: 900px) {
+    .plan-cards-main-wrap .container .-main-cols .-col-form,
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad {
+        margin-top: 145px !important;
+    }
+
+    .plan-cards-main-wrap .container .-main-cols .-col-form{
+        height: calc(100% - 145px);
+    }
+
+}
+
+@media(max-width:960.98px) {
+    .plan-cards-main-wrap.isFriday {
+        margin-top: 45px;
+    }
+}
+
+.-logo-wrapper {
+    position: relative;
+}
+
+.-logo-wrapper::before {
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    background-image: url("../images/corners-r.png");
+    bottom: 37px;
+    height: 42px;
+    width: 32px;
+    right: -38px;
+}
+
+.-logo-wrapper::after {
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    background-image: url("../images/corners-l.png");
+    bottom: 28px;
+    height: 50px;
+    width: 32px;
+    left: -41px;
+}
+
+@media only screen and (max-width: 1199.5px) {
+    .-logo-wrapper::after {
+        bottom: 51px;
+        height: 36px;
+        width: 30px;
+        left: -42px;
+        background-position-y: bottom;
+    }
+
+    .-logo-wrapper::before {
+        bottom: 51px;
+        height: 34px;
+        width: 32px;
+        right: -39px;
+        background-position-y: bottom;
+    }
+
+    .section-login-signup .-container {
+        margin-top: 100px;
+    }
+
+    @media only screen and (max-width: 899.5px) {
+        .section-login-signup.plan-dpf-main-wrapper.register-wrapper .-main-cols .-col-form {
+            margin-top: 135px;
+        }
+
+        .-logo-wrapper::after {
+            bottom: 31px;
+            height: 20px;
+            width: 30px;
+            left: -31px;
+            background-position-y: bottom;
+        }
+
+        .-logo-wrapper::before {
+            bottom: 31px;
+            height: 17px;
+            width: 32px;
+            right: -28px;
+            background-position-y: bottom;
+        }
+
+        .plan-dpf-main-wrapper.register-wrapper .dpf-section-desktop {
+            display: none;
+        }
+
+        .plan-dpf-main-wrapper.register-wrapper .dpf-section-mobile {
+            display: block !important;
+        }
+
+        .plan-cards-main-wrap.isFriday {
+            margin-top: 70px;
+        }
+
+        .dpf-step-block > nav ol.custom-breadcrumbs li div span.text{
+            display: none;
+        }
+    }
+}
+
+.section-email-feature .feature-detail .feature-icon-area {
+    margin-right: 4px;
+}
+
+.section-email-feature .feature-detail .feature-icon-area i {
+    padding: 2px;
+    font-size: 14px;
+}
+
+.section-login-signup .section-email-feature .feature-detail .item-description {
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+}
+
+.section-login-signup .section-email-feature .feature-detail .item-description:not(:lang(en)) {
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
+}
+
+/* ----------nfs-login-model------------- */
+
+.nsflogin-model-content {
+    padding: 0px 20px 20px !important;
+    max-width: 450px !important;
+}
+
+.nsflogin-model-content .modal-img {
+    padding: 0 5px !important;
+}
+
+.nsflogin-model-content .modal-img p {
+    margin-bottom: 20px;
+}
+
+.nsf-model-btn-wrap {
+    justify-content: center;
+    padding-top: 20px !important;
+}
+
+.nfs-login-btn:hover {
+    color: #fff !important;
+}
+
+.nfs-login-btn {
+    padding: 15px 13px;
+    width: 250px !important;
+    min-width: unset;
+    font-size: 18px;
+    height: 56px;
+    font-weight: 700;
+}
+
+.nfs-model-close {
+    position: absolute;
+    top: 13px;
+    right: 14px;
+}
+
+.nfs-model-close:focus {
+    box-shadow: none;
+}
+
+.nsflogin-model-content .modal-header {
+    border-bottom: none !important;
+}
+
+.nsf-login-modal-text {
+    font-size: 18px !important;
+}
+
+.nsf-login-img {
+    width: 275px;
+    max-width: 275px;
+    height: auto;
+    margin-left: 37px;
+}
+
+.mobile-qr {
+    display: none;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .button-wrp {
+    max-width: 100%;
+    padding: 0 5px;
+}
+
+.-main-cols.plans-pick .section-email-feature .feature-detail {
+    height: 50px;
+}
+
+.-main-cols.plans-pick .section-email-feature .feature-detail:not(:lang(en)) {
+    height: auto;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 576px) {
+
+    .plan-dpf-main-wrapper.register-wrapper .-col-form,
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap,
+    .plan-dpf-main-wrapper.register-wrapper .dpf-section-mobile-wrap {
+        max-width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 992.98px) {
+    .plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card {
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .plan-cards-main-wrap .review-full-wrap .review-cards-wrap>div {
+        margin-bottom: 20px;
+    }
+
+    .plan-cards-main-wrap .review-full-wrap .review-cards-wrap .review-card .reivew-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .nsf-header {
+        position: fixed !important;
+        top: 0px;
+        box-shadow: rgb(230 230 230) 0px 2px 8px 0px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .-form-title {
+        line-height: 34px;
+        font-size: 32px;
+    }
+
+    .plan-cards-main-wrap .section-email-feature {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .-form-title {
+        line-height: 34px;
+        font-size: 32px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-wrap .rate-subheading {
+        font-size: 17px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-stars-wrap .rate-star {
+        font-size: 20px;
+    }
+
+    .plan-dpf-main-wrapper.isFriday {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 899.5px) {
+    .plan-dpf-main-wrapper.register-wrapper .-main-cols {
+        flex-direction: column;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper.register-wrapper .col-qr-image.dpf-qr-wrap object {
+        width: 250px !important;
+        height: auto !important;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper.register-wrapper .col-qr-image {
+        margin-top: 0px;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+}
+
+@media(max-width:899.98px) {
+    .plan-dpf-main-wrapper .dpf-plans-wrap .button-wrp {
+        margin: 0 auto;
+    }
+
+    .mobile-qr {
+        display: flex;
+    }
+
+    .plan-dpf-main-wrapper .container .-main-cols.plans-pick {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form {
+        margin-top: 70px;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper::after {
+        display: none;
+    }
+
+    .plan-dpf-main-wrapper .container .-main-cols .col-qr-image.dpf-qr-wrap.desktop-qr {
+        display: none;
+    }
+
+    .left-pad.desktop-qr {
+        display: none;
+    }
+
+    .plan-cards-main-wrap .desktop-q-area {
+        display: none;
+    }
+
+    .plan-cards-main-wrap .paln-dpf-mobile-q-area {
+        display: block !important;
+        margin-top: 25px;
+        border-radius: 23px;
+        border: 1px solid var(--brand-color-primary);
+    }
+
+    @media (max-width: 767.95px) {
+        .plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form {
+            margin-top: 100px;
+        }
+
+    }
+}
+
+@media (max-width: 1199.95px) {
+
+
+    @media (min-width: 900px) {
+        .plan-dpf-main-wrapper .container .-main-cols.plans-pick .col-qr-image.dpf-qr-wrap {
+            margin-top: 0;
+        }
+
+        .plan-dpf-main-wrapper .container .-main-cols .col-qr-image.dpf-qr-wrap {
+            margin-top: 40px;
+        }
+
+        .plan-dpf-main-wrapper .container .-main-cols .-col-form {
+            margin-top: 120px;
+            width: 100%;
+        }
+
+        .plan-cards-main-wrap .container .-main-cols .-col-form {
+            margin-top: 125px;
+        }
+
+        .section-login-signup.plan-dpf-main-wrapper.register-wrapper .container .-main-cols .-col-form {
+            margin-top: 155px !important;
+        }
+
+        .section-login-signup.plan-dpf-main-wrapper.register-wrapper .container .-main-cols .left-pad .col-qr-image{
+            margin-top: 155px !important;
+        }
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label:lang(de),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label:lang(el) {
+            font-size: 16px !important;
+            line-height: 1.25 !important;
+        }
+    }
+
+    @media (max-width: 899.5px) {
+        .plan-dpf-main-wrapper .dpf-plans-wrap .button-wrp {
+            max-width: 100%;
+        }
+
+        .section-login-signup.plan-dpf-main-wrapper .container .col-qr-image.dpf-qr-wrap {
+            margin-top: 40px;
+            flex-direction: column;
+        }
+
+        .section-login-signup.plan-dpf-main-wrapper .container .-main-cols.plans-pick .col-qr-image.dpf-qr-wrap {
+            margin-top: 0px;
+        }
+
+        .section-login-signup.plan-dpf-main-wrapper .container .col-qr-image.dpf-qr-wrap .qr-wrap object {
+            max-width: 300px;
+            margin: 15px;
+            height: auto !important;
+            /* padding: 1.25rem; */
+        }
+    }
+
+   
+}
+
+.section-login-signup.plan-dpf-main-wrapper .container .col-qr-image.dpf-qr-wrap .qr-wrap object {
+    height: 350px;
+}
+
+.section-login-signup.plan-dpf-main-wrapper .section-email-feature .feature-detail .feature-icon-area i.dpf-plan-icon.text-success {
+    background-color: transparent !important;
+    color: var(--brand-color-primary) !important;
+    font-size: 18px;
+}
+
+/* Plan Radio Buttons */
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan {
+    padding: 4px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan-2 {
+    padding: 4px;
+    overflow: hidden;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp {
+    height: 75px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label {
+    height: 100%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label:not(:lang(en)) {
+    font-size: 20px;
+    line-height: 1.05;
+}
+
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp .usd-price-wrap {
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp .usd-offer-wrap {
+    position: absolute;
+    bottom: 8px;
+    right: 37px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp .usd-price-wrap .pay-currency {
+    font-size: 15px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label .dpf-plan-price {
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label,
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp {
+    width: 100%;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp {
+    position: relative;
+    padding: 8px 16px 8px 48px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    transition: all 0.25s;
+    z-index: 4;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .card-wrp {
+    padding: 8px 40px 8px 48px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card input[type="radio"]:checked~.card-wrp {
+    border: 2px solid var(--brand-color-primary);
+    transition: all 0.25s;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp::after,
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 50%;
+    border-radius: 12px;
+    transition: all 0.25s;
+    transform: translateY(-50%);
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp::before {
+    border: 1px solid #767c83;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card input[type="radio"]:checked~.card-wrp::before {
+    border: 1px solid var(--brand-color-primary);
+    background-color: var(--brand-color-primary);
+    transition: all 0.25s;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp::after {
+    content: "\e91a";
+    font-family: "qr-icons" !important;
+    color: white;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-10px);
+    font-size: 14px;
+    opacity: 0;
+    scale: 0;
+    transform-origin: center center;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card input[type="radio"]:checked~.card-wrp::after {
+    opacity: 1;
+    scale: 1;
+    transition: all 0.25s;
+    transform-origin: center center;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card input[type="radio"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid #deb359;
+    right: -5px;
+    bottom: 10px;
+    transform: rotate(-315deg);
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid #deb359;
+    right: 66px;
+    top: -5px;
+    transform: rotate(-45deg);
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp {
+    position: absolute;
+    z-index: 6;
+    right: 0;
+    font-size: 10px;
+    background: #ffd887;
+    padding: 4px 18px 4px 28px;
+    transform: rotate(42deg);
+    top: 8px;
+    right: -26px;
+    z-index: 101;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:not(:lang(en)) {
+    font-size: 9px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:not(:lang(en)) {
+    padding: 4px 28px 4px 40px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:not(:lang(en)) {
+    right: -35px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form form .-form-subtitle {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form form .-form-title span:last-child,
+.plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form form .-form-title span:first-child {
+    color: #1e1c32;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text {
+    margin-bottom: 0px;
+    margin-right: 00px;
+    margin-left: 20px;
+}
+
+.plan-cards-main-wrap .plan-dpf-paymethod-title:not(:lang(en)) {
+    font-size: 20px;
+}
+
+@media (max-width: 359.5px) {
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text {
+        margin-bottom: 0px;
+        margin-left: 14px;
+    }
+}
+
+@media (max-width: 575.5px) {
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:not(:lang(en)) {
+        margin-left: 0px;
+        width: max-content;
+        min-width: 110px;
+        text-align: right;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label[for="dpfPlan3"] span:first-child:not(:lang(en)) {
+        width: 50%;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-paymethod-title:not(:lang(en)) {
+        font-size: 19px !important;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sv),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(es),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sl),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(no),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(nl),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(da),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(cs),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(id),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(hu),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(de),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(bg),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(el),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(fr) {
+        min-width: 40px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sv),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(es),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sl),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(no),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(nl),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(da),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(cs),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(id),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(hu),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(de),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(bg),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(el),
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(fr) {
+        min-width: 106px;
+
+    }
+
+    @media (max-width: 375.5px) {
+
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sv),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(es),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sl),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(no),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(nl),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(da),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(id),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(hu),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(de),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(bg),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(el),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan:not(.plan-3) .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(fr) {
+            min-width: 50px;
+        }
+
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sv),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(es),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(sl),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(no),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(nl),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(da),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(id),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(hu),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(de),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(bg),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(el),
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text:lang(fr) {
+            min-width: 104px;
+
+        }
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label:not(:lang(en)) {
+        font-size: 16px;
+        line-height: 1.05;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label span.dpfplan-title {}
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label span:first-child:not(:lang(en)) {
+        width: 76%;
+        /* font-size: 15px; */
+    }
+
+    .plan-dpf-main-wrapper.section-login-signup form {
+        box-shadow: 20px -20px 40px rgba(232, 236, 238, 0.65), -20px 20px 30px rgba(232, 236, 238, 0.65);
+    }
+
+    .plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form form,
+    .plan-dpf-main-wrapper .container .-main-cols.plans-pick {
+        width: 100%;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label {
+        font-size: 16px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp::after,
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp::before {
+        width: 16px;
+        height: 16px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp::after {
+        font-size: 12px;
+        left: 12px;
+        transform: translateY(-9px);
+    }
+
+    .plan-dpf-main-wrapper .mobile-qr .dpf-qr-wrap .heading-wrp>p {
+        font-size: 16px !important;
+    }
+
+    .plan-dpf-main-wrapper .mobile-qr .dpf-qr-wrap .qr-wrap {
+        padding: 0px !important;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper .container .col-qr-image.dpf-qr-wrap {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 32px;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper form {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp .usd-price-wrap .pay-currency {
+        font-size: 12px;
+    }
+
+
+    @media (max-width: 359.5px) {
+        /* .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-1 .plan-card .card-wrp label span.dpfplan-title{
+            max-width: 114px;
+        } */
+        /* .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-2 .plan-card .card-wrp label span.dpfplan-title{
+            max-width: 85px;
+        } */
+        /* .plan-dpf-main-wrapper .dpf-plans-wrap .plan.plan-3 .plan-card .card-wrp label span.dpfplan-title{
+            max-width: 90px;
+        } */
+
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label span:first-child {
+            /* max-width: 120px; */
+            line-height: 1.25;
+        }
+
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label span:first-child:not(:lang(en)) {
+            /* max-width: 120px; */
+            line-height: 1.15;
+        }
+
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label span:first-child:lang(de) {
+            /* max-width: max-content; */
+            /* line-height: 1.15; */
+            /* width: calc(100% - 80px); */
+        }
+
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp {
+            padding: 8px 8px 8px 40px;
+        }
+
+        .plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .card-wrp {
+            padding: 8px 40px 8px 38px;
+        }
+    }
+}
+
+/* Plan Radio Buttons */
+
+/* Plans Header */
+.billing-block.dpf nav {
+    max-width: 730px;
+}
+
+.billing-block.dpf nav:not(:lang(en)) {
+    max-width: max-content;
+}
+
+.billing-block.dpf {
+    width: 60%;
+}
+
+@media only screen and (max-width: 767.9px) {
+    .billing-block.dpf {
+        width: 100%;
+    }
+
+    .billing-block.dpf>nav ol.custom-breadcrumbs {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Plans Header */
+@media (max-width: 767.98px) {
+    .dpf {
+        display: none;
+    }
+
+    .plan-dpf-main-wrapper .-col-form {
+        margin-top: 90px;
+    }
+
+    .plan-dpf-main-wrapper .-col-form {
+        margin-top: 55px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap {
+        padding: 0px !important;
+    }
+
+    .plan-cards-main-wrap .review-full-wrap .review-cards-wrap>div {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .check-icon-wrap .check-icon::after {
+        font-size: 12px !important;
+    }
+
+    .dpf-pay-qr-header {
+        margin-bottom: 15px;
+    }
+
+    .-main-cols.plans-pick .section-email-feature .feature-detail {
+        height: 35px;
+    }
+
+    .-main-cols.plans-pick .section-email-feature .feature-detail:not(:lang(en)) {
+        height: auto;
+        margin-bottom: 8px;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .section-email-feature .feature-detail {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-text-area .q-title {
+        font-size: 17px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-text-area .q-answer {
+        font-size: 15;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-icon-full-wrap {
+        max-width: 45px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-head-title {
+        font-size: 31px;
+        padding: 0px 119px;
+    }
+}
+
+@media (max-width: 899.98px) {
+    .plan-dpf-main-wrapper .-col-form {
+        background-color: var(--white) !important;
+    }
+
+    .plan-dpf-main-wrapper .section-email-feature {
+        margin-top: 0px !important;
+    }
+
+    .plan-dpf-main-wrapper .-col-form form {
+        width: 100%;
+    }
+
+    /* -----------Hide step 4 QR start------------------- */
+
+    .plan-dpf-main-wrapper.register-wrapper .-main-cols .left-pad .dpf-qr-wrap {
+        display: none;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .-main-cols .left-pad .dpf-section-mobile-wrap {
+        margin-top: 28px;
+    }
+
+    /* -----------Hide step 4 QR end------------------- */
+}
+
+@media (min-width: 1400px) {
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label span.dpfplan-title:not(:lang(en)) {
+        width: max-content;
+        line-height: 1.05;
+        font-size: 24px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label span.dpfplan-title.set-font-size:not(:lang(en)) {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .plan-dpf-main-wrapper .container .-main-cols.plans-pick .-col-form form .-form-title {
+        font-size: 32px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 450px) {
+    .plan-dpf-main-wrapper .container .-main-cols.plans-pick {
+        align-items: unset;
+    }
+
+    .section-login-signup.plan-dpf-main-wrapper .container .col-qr-image.dpf-qr-wrap .qr-wrap object {
+        max-width: 250px;
+        width: 250px;
+        margin: 10px;
+    }
+
+    .plan-dpf-main-wrapper .mobile-qr {
+        justify-content: center;
+    }
+
+    .plan-dpf-main-wrapper .-col-form form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .pay-dpf .-form-title .pay-heading,
+    .plan-dpf-main-wrapper.plan-cards-main-wrap .-form-title,
+    .plan-dpf-main-wrapper.register-wrapper .-form-title {
+        font-size: 28px !important;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .-form-subtitle,
+    .plan-dpf-main-wrapper.plan-cards-main-wrap .-form-subtitle {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+
+    .pay-dpf .-form-subtitle .pay-subheading {
+        padding: 0px 26px;
+        font-size: 16px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .plan-dpf-q-heading .q-title {
+        font-size: 23px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-head-title {
+        font-size: 31px;
+        padding: 0px 60px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-head-title:not(:lang(en)) {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 400px) {
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label {
+        font-size: 17px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label:lang(fi) {
+        font-size: 13px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label:not(:lang(en)) {
+        font-size: 15px;
+        line-height: 1.15;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp .arg-currency {
+        font-size: 16px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label .dpfplan-title {
+        font-size: 16px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label .dpf-plan-price.us-canda-price-text {
+        margin-bottom: 12px;
+    }
+
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp .arg-currency .dpf-plan-price.us-canda-price-text {
+        margin-bottom: 10px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-head-title {
+        font-size: 31px;
+        padding: 0px 15px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-wrap .rate-subheading {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:375px) {
+    .plan-dpf-main-wrapper .dpf-plans-wrap .plan .plan-card .card-wrp label:not(:lang(en)) {
+        font-size: 14px;
+    }
+
+    .pay-dpf .-form-title .pay-heading,
+    .plan-dpf-main-wrapper.plan-cards-main-wrap .-form-title,
+    .plan-dpf-main-wrapper.register-wrapper .-form-title {
+        font-size: 25px !important;
+    }
+
+    .pay-dpf .-form-subtitle .pay-subheading,
+    .plan-dpf-main-wrapper.plan-cards-main-wrap .-form-subtitle,
+    .plan-dpf-main-wrapper.register-wrapper .-form-subtitle {
+        padding: 0px 16px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .plan-cards-main-wrap .paln-dpf-mobile-q-area .plan-dpf-q-wrap .q-cards {
+        padding-left: 0px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-head-title {
+        font-size: 29px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-wrap .rate-subheading {
+        font-size: 14px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-stars-wrap .rate-star {
+        font-size: 18px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-stars-wrap {
+        margin-top: 5px;
+    }
+
+    .plan-cards-main-wrap .review-cards-wrap>div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .plan-cards-main-wrap .review-card .review-text-wrap .reivew-text {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .pay-dpf .-form-title .pay-heading,
+    .plan-dpf-main-wrapper.plan-cards-main-wrap .-form-title,
+    .plan-dpf-main-wrapper.register-wrapper .-form-title {
+        font-size: 23px !important;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .plan-dpf-q-heading .q-title {
+        font-size: 20px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-q-wrap .q-full-card .q-card-wrap .q-icon-full-wrap {
+        max-width: 42px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-wrap .rate-subheading {
+        font-size: 13px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-rate-wrap .rate-head-wrap .rate-stars-wrap .rate-star {
+        font-size: 17px;
+    }
+
+    .plan-cards-main-wrap .plan-dpf-paymethod-title {
+        font-size: 18px !important;
+    }
+}
+
+/* Skeleton BLock */
+
+.payment-form-content {
+    position: relative;
+    min-height: 260px;
+    /* height: 100%; */
+}
+
+.loader-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: #f8f8f8;
+    display: grid;
+    z-index: 9;
+}
+
+/* Skeleton */
+.loader-wrap .skeleton-container {
+    display: grid;
+    place-items: center;
+}
+
+.loader-wrap .skeleton-container .skeleton-wrap {
+    width: 100%;
+}
+
+.dummy-box-title,
+.dummy-box-content {
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    height: 12px;
+}
+
+.dummy-box-title {
+    width: 50px;
+    margin-bottom: 7px;
+}
+
+.dummy-box-content {
+    width: 100px;
+}
+
+.skeleton-box {
+    /* height: 60px; */
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.skeleton-box.single {
+    /* height: 40px; */
+    margin-top: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.skeleton-box.single .dummy-box-title {
+    position: absolute;
+    top: -24px;
+}
+
+.skeleton-box.single .dummy-box-content {}
+
+.skeleton-anim {
+    background-color: #dcdcdc;
+    /* border-radius: 5px; */
+    animation: skeleton-animation 1.5s infinite;
+}
+
+@keyframes skeleton-animation {
+    0% {
+        background-color: #dcdcdc;
+    }
+
+    50% {
+        background-color: #f5f5f5;
+    }
+
+    100% {
+        background-color: #dcdcdc;
+    }
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 576px) {
+    .skeleton-container {
+        flex-direction: column;
+    }
+
+    .loader-wrap {
+        height: auto;
+    }
+
+    .loader-wrap .skeleton-container {
+        display: block;
+    }
+
+    .payment-form-content {
+        min-height: 330px;
+    }
+
+    .skeleton-box {
+        width: 100%;
+    }
+}
+
+@media(min-width:1400px) {
+    .plan-cards-main-wrap .plans-pick .dpf-qr-wrap {
+        height: calc(100% - 35px) !important;
+    }
+
+    .plan-cards-main-wrap .-main-cols.plans-pick .left-pad {
+        height: auto;
+    }
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:not(:lang(en))::before {   
+    position: absolute;
+    content: "";
+    right: 68px;
+    top: -5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:not(:lang(en))::after {
+    position: absolute;
+    content: "";
+    right: -5px;
+    bottom: 8px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(bg),
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(ja),
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(ro),
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(sk) {
+    top: 10px;
+    right: -38px;
+    font-size: 9px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(fi) {
+    top: 4px;
+    right: -31px;
+    font-size: 10px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(fr),
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(sr){
+    top: 10px;
+    right: -39px;
+    font-size: 9px;
+}
+
+/* .plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(el){
+    top: 10px;
+    right: -42px;
+    font-size: 9px;
+} */
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(el){
+    top: 9px;
+    right: -37px;
+    font-size: 9px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(de){
+    top: 9px;
+    right: -40px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(hu){
+    top: 9px;
+    right: -39px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(ar){
+    top: 10px;
+    right: -23px;
+    font-size: 8.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(ms){
+    top: 9px;
+    right: -37px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(id){
+    top: 10px;
+    right: -38px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(it),
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(ko),
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(pt){
+    top: 9px;
+    right: -33px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(sl){
+    top: 10px;
+    right: -40px;
+    font-size: 8.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(es){
+    top: 10px;
+    right: -34px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(tr){
+    top: 10px;
+    right: -30px;
+    font-size: 9.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(pl){
+    top: 22px;
+    right: -65px;
+    font-size: 8.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(sv) {
+    right: -35px;
+    font-size: 9.5px;
+    top: 10px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(yo) {
+    right: -35px;
+    font-size: 9.5px;
+    top: 10px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(th) {
+    right: -35px;
+    font-size: 9.5px;
+    top: 9px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp > span:lang(pl){
+    display: block;
+    width: 50%;
+    line-height: 8px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp:lang(uk){
+    top: 20px;
+    right: -64px;
+    font-size: 8.5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card .badge-wrp > span:lang(uk){
+    display: block;
+    width: 50%;
+    line-height: 8px;
+    text-align: center;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(bg)::before,
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(fr)::before {
+    position: absolute;
+    content: "";
+    right: 69px;
+    top: -5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(bg)::after,
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(fr)::after {
+    position: absolute;
+    content: "";
+    right: -4px;
+    bottom: 7px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(da)::after,
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(nl)::after {
+    position: absolute;
+    content: "";
+    right: -5px;
+    bottom: 6px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(da)::before,
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(nl)::before {
+    position: absolute;
+    content: "";
+    right: 70px;
+    top: -5px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(fi)::after {
+    position: absolute;
+    content: "";
+    right: -5px;
+    bottom: 16px;
+}
+
+.plan-dpf-main-wrapper .dpf-plans-wrap .plan.most-popular .plan-card:lang(fi)::before {
+    position: absolute;
+    content: "";
+    right: 60px;
+    top: -5px;
+}
+
+@media(max-width:1399.98px){
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title:lang(pl), .pay-dpf .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title:lang(pl) {
+        font-size: 35px;
+    }
+    
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title:lang(sk), .pay-dpf .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title:lang(sk) {
+        font-size: 34px;
+    }
+    
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title:lang(sl), .pay-dpf .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title:lang(sl),
+    .section-login-signup.plan-dpf-main-wrapper .col-qr-image .heading-wrp p:lang(sl) {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-height: 850px) and (min-width: 900px) {
+    .plan-dpf-main-wrapper.plan-cards-main-wrap{
+        margin-top: 20px;    
+    }
+
+    .pay-dpf .-col-form,
+    .pay-dpf .left-pad .dpf-qr-wrap{
+        margin-top: 35px !important;
+    }
+
+    .pay-dpf .stripe-pay-wrap #payment-form {
+        padding: 16px 16px 8px 16px;
+        scale: 96%;
+    }
+
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap, .plan-dpf-main-wrapper.register-wrapper .-col-form {
+        margin-top: 70px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1599.98px ) {
+    .plan-dpf-main-wrapper.register-wrapper .dpf-qr-wrap .dpf-pay-qr-header .dpf-qr-title,
+    .plan-dpf-main-wrapper.register-wrapper .-form-title{
+        font-size: 2.4vw;
+        position: relative;
+        z-index: 99;
+    }
+
+    .-logo-wrapper::before{
+        bottom: 35px;
+        height: 30px;
+        width: 32px;
+        right: -38px;
+        background-position: 0px -14px;
+    }
+    .-logo-wrapper::after{
+        bottom: 43px;
+        height: 30px;
+        width: 33px;
+        left: -40px;
+        background-position: 0px -6px;
+    }
+
+}
+
+
+.section-login-signup .section-email-feature .feature-detail .item-description {
+    color: #767c83;
+    font-size: 15px;
+}
+  
+.dpf-qr-wrap .qr-wrap {
+    position: relative;
+    padding: 1.25rem;
+  }
+  @media (max-width: 899.98px) {
+    .dpf-qr-wrap .qr-wrap {
+      padding: 0.25rem;
+      width: max-content;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set {
+    position: absolute;
+    height: 50px;
+    overflow: hidden;
+    display: block;
+    width: calc(100% + 20px);
+    opacity: 0.5;
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set.corners-up {
+    top: -8px;
+    left: -10px;
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set.corners-down {
+    bottom: -5px;
+    left: -10px;
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set::after,
+  .dpf-qr-wrap .qr-wrap .corners-set::before {
+    position: absolute;
+    z-index: 1;
+    content: "\e965";
+    font-family: "qr-icons" !important;
+    color: var(--brand-color-primary);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set.corners-up::after {
+    transform: rotate(0deg);
+    top: 0;
+    left: 0;
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set.corners-up::before {
+    transform: rotate(90deg);
+    top: 0;
+    right: 0;
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set.corners-down::after {
+    transform: rotate(-90deg);
+    top: 0;
+    left: 0;
+  }
+  .dpf-qr-wrap .qr-wrap .corners-set.corners-down::before {
+    transform: rotate(180deg);
+    top: 0;
+    right: 0;
+  }
+
+  @media (min-width: 1228px) and (max-width:1230px ) {
+    .pay-dpf.set-scaler{
+      scale: 0.72 !important;
+      transform-origin: top;
+  
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .section-login-signup .-logo-wrapper,
+    .section-login-signup .-logo-wrapper-shadow{
+      width:  120px;
+      height: 120px;
+    }
+    @media (max-width:1600px ) {
+      .set-scaler{
+        scale: 0.812 !important;
+        transform-origin: top;
+      }
+      @media (-webkit-device-pixel-ratio: 1.5) {
+        .set-scaler{
+          scale: 0.72 !important;
+        }
+      }
+      
+      @media screen and  (min-height: 800px) {
+        .set-scaler{
+          scale: 0.95 !important;
+        }
+      }
+      @media (-webkit-device-pixel-ratio: 1.25) {
+        .set-scaler{
+          scale: 0.85 !important;
+          transform-origin: top;
+        }
+      }
+  
+    }
+    @media (max-width:1440px ) {
+      .set-scaler{
+        scale: 0.85 !important;
+        transform-origin: top;
+      }
+    }
+    @media (max-width:1366px ) {
+      .set-scaler{
+        scale: 0.75 !important;
+        transform-origin: top;
+      }
+      @media (-webkit-device-pixel-ratio: 1.1) {
+        .set-scaler{
+          scale: 0.71 !important;
+          transform-origin: top;
+        }
+      }
+      @media (min-height:700px ) {
+        .set-scaler{
+          scale: 0.82 !important;
+          transform-origin: top;
+        }
+      }
+      @media (-webkit-device-pixel-ratio: 1.25) {
+        .set-scaler{
+          scale: 0.85 !important;
+        }
+        @media (min-height:620px) and (max-height:700px) {
+          .set-scaler{
+            scale: 0.72 !important;
+          }
+        }
+      }
+    }
+    /* @media (-webkit-device-pixel-ratio: 1) { */
+      /* .set-scaler{ */
+        /* scale: 1 !important; */
+      /* } */
+    /* } */
+    @media (-webkit-device-pixel-ratio: 1.25) {
+      .pay-dpf .payment-policy-wrap{
+        margin-top: 1vw !important;
+      }
+    }
+    .pay-dpf .payment-policy-wrap{
+      /* margin-top: 3.5rem !important; */
+    }
+    .pay-dpf .payment-policy-wrap.bm-bar{
+      /* margin-top: 2.5rem !important; */
+    }
+    .dpf-pay-payment-wrap.bm-bar{
+      /* margin-top: 2.5rem !important; */
+    }
+    .plan-cards-main-wrap #dpf-plans-wrap.qr-frame-active{
+      padding-top: 20px;
+    }
+    .section-login-signup img.-logo{
+      width: 40px;
+      height: 40px;
+    }
+    .set-y-pad{
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+    .pay-dpf{
+      /* margin-top: 8px !important;
+      padding-top: 24px !important; */
+    }
+  
+  }
+  
+  @media (min-width: 1920px) {
+    @media (-webkit-device-pixel-ratio: 1.25) {
+      .set-scaler{
+        scale: 1.1 !important;
+        transform-origin: top;
+      }
+      .-logo-wrapper::after,
+      .-logo-wrapper::before{
+        bottom: 29px !important;
+      }
+    }
+  }
+  @media (min-width: 1600px) and (min-height:1024px ) {
+    .set-scaler{
+      scale: 1.1 !important;
+      transform-origin: top;
+    }
+  }

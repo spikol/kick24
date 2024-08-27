@@ -1,12 +1,12 @@
 # Readme
-14 aug
+27 aug
 
 **Find all the pdfs** on the root of the repo for slides for each day and the new worksheets. For Arduino look in the hackathon directory for assorted sketches in a zip-file.
 
 ## To Do
-- [ ] Creative computing slides (uge 34)
-- [ ] Convert Hackathon slides
-- [ ] Hackathon Materials (cards and pdf)
+- [x] Creative computing slides (uge 34)
+- [x] Convert Hackathon slides
+- [x] Hackathon Materials (cards and pdf)
 - [x] Update Sound workbook
 - [x] Fix day 2, 3, and 4 Slides
 - [x] Get Arduino Kits
