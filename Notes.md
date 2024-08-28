@@ -1,3 +1,14 @@
+# Hackathon notes
+28 August Notes for 2025
+
+1. Update slides
+2. deal with cloud version 20 compiles
+3. Re-focus slides 
+4. Create more solid demos
+5. Introduce simple programming concepts
+6. Redo cards up to date
+
+
 # Week 34 Notes
 20 Aug
 
